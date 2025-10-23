@@ -36,10 +36,10 @@ This paper introduces an **inference-time, reversible, neuron-level masking fram
 
 | Stage | Description |
 |--------|--------------|
-| **1. Behavioural Detection** | Compute bias score per turn based on model outputs. |
+| **1. Behavioral Detection** | Compute bias score per turn based on model outputs. |
 | **2. Bias Neuron Identification** | Use attribution (e.g., Integrated Gradients) to locate neurons contributing to bias. |
 | **3. Memory Consistency Probe** | Test whether a neuron encodes skill vs bias concept over dialogue context. |
-| **4. Dynamic Masking** | Apply gating function `g_l^(t) = σ(αS_t + βC_t)` to softly suppress biased neurons per layer and turn. |
+| **4. Dynamic Masking** | Apply gating function to softly suppress biased neurons per layer and turn. |
 
 This allows **context-sensitive bias suppression** that adapts dynamically across conversation history.
 
