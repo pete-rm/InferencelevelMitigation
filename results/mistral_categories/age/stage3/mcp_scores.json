@@ -1,0 +1,5812 @@
+{
+  "conv_13_turn_3": {
+    "C_t": 0.5440199933644649,
+    "s_stab": 0.9181623743184524,
+    "s_dep": 0.4229273559994226,
+    "s_cos": 0.8746371666590372,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_15_turn_0": {
+    "C_t": 0.16900993533473507,
+    "s_stab": 0.8048092158796909,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_24_turn_4": {
+    "C_t": 0.6193035182605564,
+    "s_stab": 0.8057117846515348,
+    "s_dep": 1.0,
+    "s_cos": 0.8003468116124471,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_33_turn_3": {
+    "C_t": 0.5778674097130043,
+    "s_stab": 0.9202738247119997,
+    "s_dep": 0.5682691725902066,
+    "s_cos": 0.8842446009318033,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_48_turn_0": {
+    "C_t": 0.18589237246181917,
+    "s_stab": 0.8852017736277104,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_59_turn_1": {
+    "C_t": 0.5669053999290882,
+    "s_stab": 0.8605437697670001,
+    "s_dep": 0.6042963035280647,
+    "s_cos": 0.8642966151237488,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_69_turn_3": {
+    "C_t": 0.5217490881837131,
+    "s_stab": 0.9064799373043609,
+    "s_dep": 0.4705368937817764,
+    "s_cos": 0.7752518455187479,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_71_turn_2": {
+    "C_t": 0.5149938215738952,
+    "s_stab": 0.9090246648252395,
+    "s_dep": 0.4474271823904525,
+    "s_cos": 0.7671297788619995,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_72_turn_1": {
+    "C_t": 0.5956353184726437,
+    "s_stab": 0.9894521769285554,
+    "s_dep": 0.5518135818709107,
+    "s_cos": 0.9065650304158529,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_79_turn_2": {
+    "C_t": 0.5422256043016841,
+    "s_stab": 0.9249089787545419,
+    "s_dep": 0.5340609560552007,
+    "s_cos": 0.786139726638794,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_79_turn_4": {
+    "C_t": 0.5583400946680179,
+    "s_stab": 0.9765505882921534,
+    "s_dep": 0.6470385441376577,
+    "s_cos": 0.7246212561925253,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_0_turn_4": {
+    "C_t": 0.49973699233148106,
+    "s_stab": 0.8355453630329455,
+    "s_dep": 0.4703400550913674,
+    "s_cos": 0.7516701817512512,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_1_turn_0": {
+    "C_t": 0.16865749708861946,
+    "s_stab": 0.8031309385172357,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_1_turn_1": {
+    "C_t": 0.5239799935246114,
+    "s_stab": 0.9222315189632029,
+    "s_dep": 0.4427523209803789,
+    "s_cos": 0.7911112904548645,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_1_turn_3": {
+    "C_t": 0.5402960477047087,
+    "s_stab": 0.9841625232312031,
+    "s_dep": 0.3700922721067133,
+    "s_cos": 0.8530084689458212,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_1_turn_4": {
+    "C_t": 0.4544786753498148,
+    "s_stab": 0.9094115582520718,
+    "s_dep": 0.16189874159224962,
+    "s_cos": 0.765011707941691,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_2_turn_0": {
+    "C_t": 0.2029969486828234,
+    "s_stab": 0.9122078953226057,
+    "s_dep": 0.05444424126226758,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_2_turn_1": {
+    "C_t": 0.5916779984450671,
+    "s_stab": 0.8942998519679696,
+    "s_dep": 0.714608376213845,
+    "s_cos": 0.84602423508962,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_2_turn_2": {
+    "C_t": 0.5923077623491549,
+    "s_stab": 0.9140155808542756,
+    "s_dep": 0.7184741422288008,
+    "s_cos": 0.8316164016723633,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_2_turn_3": {
+    "C_t": 0.552868813711541,
+    "s_stab": 0.9773934897592356,
+    "s_dep": 0.462351228912258,
+    "s_cos": 0.8350747426350912,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_2_turn_4": {
+    "C_t": 0.5692629574794374,
+    "s_stab": 0.979789653795407,
+    "s_dep": 0.6150836435415282,
+    "s_cos": 0.7811318834622701,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_3_turn_0": {
+    "C_t": 0.194736583934429,
+    "s_stab": 0.9273170663544239,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_3_turn_1": {
+    "C_t": 0.6186369001730097,
+    "s_stab": 0.7627884354666828,
+    "s_dep": 0.9457802396463317,
+    "s_cos": 0.8661249279975891,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_3_turn_2": {
+    "C_t": 0.5309989920408735,
+    "s_stab": 0.8989496719490574,
+    "s_dep": 0.45639296178991945,
+    "s_cos": 0.8212567965189616,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_3_turn_3": {
+    "C_t": 0.4622645653212666,
+    "s_stab": 0.8116635100743822,
+    "s_dep": 0.408895162087231,
+    "s_cos": 0.6864908138910929,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_3_turn_4": {
+    "C_t": 0.5797059704681385,
+    "s_stab": 0.8057117939884807,
+    "s_dep": 0.9403338076728334,
+    "s_cos": 0.7101213137308756,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_4_turn_2": {
+    "C_t": 0.5945752914156903,
+    "s_stab": 0.9904969459024686,
+    "s_dep": 0.7194637793890967,
+    "s_cos": 0.7849451303482056,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_4_turn_4": {
+    "C_t": 0.44863249614787537,
+    "s_stab": 0.7490038349269519,
+    "s_dep": 0.23635403785777442,
+    "s_cos": 0.805691142876943,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_5_turn_0": {
+    "C_t": 0.19197936881723374,
+    "s_stab": 0.9141874705582559,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_5_turn_1": {
+    "C_t": 0.5819365716875261,
+    "s_stab": 0.8987183747647057,
+    "s_dep": 0.6004706675710741,
+    "s_cos": 0.8903562426567078,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_5_turn_2": {
+    "C_t": 0.5777931293550698,
+    "s_stab": 0.8996084902943058,
+    "s_dep": 0.6024933666032376,
+    "s_cos": 0.8745057980219523,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_5_turn_3": {
+    "C_t": 0.5429384379645827,
+    "s_stab": 0.9322977866921092,
+    "s_dep": 0.38645604288770025,
+    "s_cos": 0.8866671125094095,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_5_turn_4": {
+    "C_t": 0.5316370888921307,
+    "s_stab": 0.8669043454738797,
+    "s_dep": 0.4635655790085334,
+    "s_cos": 0.8407946825027466,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_6_turn_0": {
+    "C_t": 0.207342985131458,
+    "s_stab": 0.9873475482450381,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_6_turn_1": {
+    "C_t": 0.5074706180383106,
+    "s_stab": 0.9840264446953958,
+    "s_dep": 0.3802924746233011,
+    "s_cos": 0.7365454832712809,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_6_turn_2": {
+    "C_t": 0.5681932797872977,
+    "s_stab": 0.797400974854347,
+    "s_dep": 0.8017420547502718,
+    "s_cos": 0.7745774785677592,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_7_turn_0": {
+    "C_t": 0.15856381200833494,
+    "s_stab": 0.7550657714682617,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_7_turn_1": {
+    "C_t": 0.6159562370380007,
+    "s_stab": 0.9340487785526191,
+    "s_dep": 0.8158642143714752,
+    "s_cos": 0.8282483617464701,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_7_turn_2": {
+    "C_t": 0.5861510526364568,
+    "s_stab": 0.9860064035164859,
+    "s_dep": 0.6457975401144834,
+    "s_cos": 0.8115740815798441,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_7_turn_3": {
+    "C_t": 0.5714611865831123,
+    "s_stab": 0.8235268456350276,
+    "s_dep": 0.7891689967562753,
+    "s_cos": 0.7759835322697958,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_7_turn_4": {
+    "C_t": 0.5068897594245803,
+    "s_stab": 0.9377501520324341,
+    "s_dep": 0.3760230094396538,
+    "s_cos": 0.7699913183848063,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_8_turn_1": {
+    "C_t": 0.4931974641817771,
+    "s_stab": 0.858172904984604,
+    "s_dep": 0.3015223363616245,
+    "s_cos": 0.8322048783302307,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_8_turn_3": {
+    "C_t": 0.5370546037691575,
+    "s_stab": 0.9350326636377856,
+    "s_dep": 0.4444562675269474,
+    "s_cos": 0.8245397607485453,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_8_turn_4": {
+    "C_t": 0.5170029373119341,
+    "s_stab": 0.9429946954371557,
+    "s_dep": 0.3228567772121855,
+    "s_cos": 0.8372470935185751,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_9_turn_1": {
+    "C_t": 0.48214223220139774,
+    "s_stab": 0.9290197003332096,
+    "s_dep": 0.17933405422268756,
+    "s_cos": 0.8312931458155314,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_9_turn_4": {
+    "C_t": 0.4535081180875481,
+    "s_stab": 0.9270979453509984,
+    "s_dep": 0.2220412758484408,
+    "s_cos": 0.7072962721188863,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_10_turn_0": {
+    "C_t": 0.2036325882481553,
+    "s_stab": 0.9696789916578825,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_10_turn_2": {
+    "C_t": 0.5544878197101427,
+    "s_stab": 0.9276006703268455,
+    "s_dep": 0.5468292721692394,
+    "s_cos": 0.8161917726198832,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_10_turn_4": {
+    "C_t": 0.5593366747641931,
+    "s_stab": 0.9092070562717962,
+    "s_dep": 0.5789678559880719,
+    "s_cos": 0.8227331439654032,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_11_turn_0": {
+    "C_t": 0.1946145979987064,
+    "s_stab": 0.926736180946221,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_11_turn_1": {
+    "C_t": 0.5434419863634299,
+    "s_stab": 0.9801006852325171,
+    "s_dep": 0.41984291307431976,
+    "s_cos": 0.8315127690633138,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_11_turn_2": {
+    "C_t": 0.5554933243013767,
+    "s_stab": 0.8376421240304132,
+    "s_dep": 0.5733217769563965,
+    "s_cos": 0.8639696836471558,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_11_turn_3": {
+    "C_t": 0.5063060338875405,
+    "s_stab": 0.8621474971978716,
+    "s_dep": 0.3755983534090546,
+    "s_cos": 0.8212646842002869,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_11_turn_4": {
+    "C_t": 0.6156526521345796,
+    "s_stab": 0.836945917900155,
+    "s_dep": 0.924356526533643,
+    "s_cos": 0.8192637960116068,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_12_turn_0": {
+    "C_t": 0.18951488966480143,
+    "s_stab": 0.9024518555466735,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_12_turn_1": {
+    "C_t": 0.5550062538238514,
+    "s_stab": 0.8840723246442989,
+    "s_dep": 0.4463812306426487,
+    "s_cos": 0.9187033573786417,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_12_turn_2": {
+    "C_t": 0.5946203277148003,
+    "s_stab": 0.9672091237500595,
+    "s_dep": 0.5394602204883787,
+    "s_cos": 0.927399218082428,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_12_turn_3": {
+    "C_t": 0.5348694491185328,
+    "s_stab": 0.9235776905001651,
+    "s_dep": 0.38013417787186526,
+    "s_cos": 0.8702998558680216,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_12_turn_4": {
+    "C_t": 0.5347931770807868,
+    "s_stab": 0.936868881169451,
+    "s_dep": 0.32946660824287083,
+    "s_cos": 0.8962090810139974,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_13_turn_0": {
+    "C_t": 0.2633195929781348,
+    "s_stab": 0.7918050176651918,
+    "s_dep": 0.46209780604021217,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_13_turn_1": {
+    "C_t": 0.6077644968068036,
+    "s_stab": 0.9097187145260841,
+    "s_dep": 0.7077190966155696,
+    "s_cos": 0.8936751882235209,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_13_turn_2": {
+    "C_t": 0.5779257353331736,
+    "s_stab": 0.8514092669555471,
+    "s_dep": 0.6156555206035894,
+    "s_cos": 0.89947376648585,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_13_turn_4": {
+    "C_t": 0.5209476492376083,
+    "s_stab": 0.919283763074743,
+    "s_dep": 0.37888219290916547,
+    "s_cos": 0.8277759949366251,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_14_turn_0": {
+    "C_t": 0.19407276880504,
+    "s_stab": 0.924156041928762,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_14_turn_1": {
+    "C_t": 0.5104716916196057,
+    "s_stab": 0.8937736813498064,
+    "s_dep": 0.374983341833561,
+    "s_cos": 0.8134423891703287,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_14_turn_2": {
+    "C_t": 0.5624521546865769,
+    "s_stab": 0.9353639012480395,
+    "s_dep": 0.5945018146082046,
+    "s_cos": 0.8039345145225525,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_14_turn_3": {
+    "C_t": 0.587982042707266,
+    "s_stab": 0.9162413462370851,
+    "s_dep": 0.6729143148636395,
+    "s_cos": 0.8475311795870463,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_15_turn_4": {
+    "C_t": 0.5127457561288051,
+    "s_stab": 0.915582551300331,
+    "s_dep": 0.4225186778156457,
+    "s_cos": 0.7724816600481669,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_16_turn_0": {
+    "C_t": 0.19327108028241669,
+    "s_stab": 0.9203384775353176,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_16_turn_4": {
+    "C_t": 0.5029681053071033,
+    "s_stab": 0.8569252498505845,
+    "s_dep": 0.5766542585698206,
+    "s_cos": 0.6730546951293945,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_17_turn_0": {
+    "C_t": 0.182864177100494,
+    "s_stab": 0.8707817957166382,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_17_turn_1": {
+    "C_t": 0.5204418689444439,
+    "s_stab": 0.7999373365972673,
+    "s_dep": 0.44299351016329763,
+    "s_cos": 0.8647546370824178,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_17_turn_2": {
+    "C_t": 0.5824362670767615,
+    "s_stab": 0.9718532873589842,
+    "s_dep": 0.5981122962891636,
+    "s_cos": 0.8424783150355021,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_17_turn_3": {
+    "C_t": 0.5755815132445734,
+    "s_stab": 0.908267599629787,
+    "s_dep": 0.6419278937592604,
+    "s_cos": 0.8334681987762451,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_17_turn_4": {
+    "C_t": 0.5250087541725977,
+    "s_stab": 0.9228468737002589,
+    "s_dep": 0.38626236299555705,
+    "s_cos": 0.8336527148882548,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_18_turn_0": {
+    "C_t": 0.20836461555424504,
+    "s_stab": 0.759385968885161,
+    "s_dep": 0.23282648613505355,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_18_turn_1": {
+    "C_t": 0.4861016413070419,
+    "s_stab": 0.9157869453260921,
+    "s_dep": 0.20434263260659657,
+    "s_cos": 0.8362480998039246,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_18_turn_3": {
+    "C_t": 0.5291846297666187,
+    "s_stab": 0.8823059146462423,
+    "s_dep": 0.3987320794304506,
+    "s_cos": 0.8672221700350443,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_18_turn_4": {
+    "C_t": 0.4725009628518759,
+    "s_stab": 0.7961731437526491,
+    "s_dep": 0.25627305527104577,
+    "s_cos": 0.8382908701896667,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_19_turn_3": {
+    "C_t": 0.5822643868086201,
+    "s_stab": 0.9236689626226404,
+    "s_dep": 0.6186588065761661,
+    "s_cos": 0.8612518509229025,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_19_turn_4": {
+    "C_t": 0.6111330132759746,
+    "s_stab": 0.711299098236758,
+    "s_dep": 1.0,
+    "s_cos": 0.8392006754875183,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_20_turn_0": {
+    "C_t": 0.16360013679241595,
+    "s_stab": 0.7550658203738243,
+    "s_dep": 0.023982450066251767,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_20_turn_1": {
+    "C_t": 0.5540997325943057,
+    "s_stab": 0.7411066997648119,
+    "s_dep": 0.7614182549620282,
+    "s_cos": 0.7952316403388977,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_20_turn_3": {
+    "C_t": 0.6015798333955878,
+    "s_stab": 0.7789997560378547,
+    "s_dep": 0.9529071763052742,
+    "s_cos": 0.7929312586784363,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_20_turn_4": {
+    "C_t": 0.5436587052572703,
+    "s_stab": 0.9301084770190182,
+    "s_dep": 0.5133793341778426,
+    "s_cos": 0.8017542163530985,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_21_turn_1": {
+    "C_t": 0.48640395397237507,
+    "s_stab": 0.9119140127155623,
+    "s_dep": 0.32803712641905897,
+    "s_cos": 0.7533807158470154,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_21_turn_4": {
+    "C_t": 0.5092640521678221,
+    "s_stab": 0.9224635842084841,
+    "s_dep": 0.3806554519933847,
+    "s_cos": 0.785363515218099,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_22_turn_0": {
+    "C_t": 0.20581587163688786,
+    "s_stab": 0.9800755792232756,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_22_turn_3": {
+    "C_t": 0.5934663043399331,
+    "s_stab": 0.769120742082622,
+    "s_dep": 0.9369931517421356,
+    "s_cos": 0.7839412887891134,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_22_turn_4": {
+    "C_t": 0.4537208697870059,
+    "s_stab": 0.7709751585265111,
+    "s_dep": 0.25667210857795336,
+    "s_cos": 0.7930498123168945,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_23_turn_0": {
+    "C_t": 0.18720514046187606,
+    "s_stab": 0.8503140186913241,
+    "s_dep": 0.04113903112713347,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_23_turn_1": {
+    "C_t": 0.6090952254337534,
+    "s_stab": 0.9837637725044115,
+    "s_dep": 0.7198337508870551,
+    "s_cos": 0.8377991517384847,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_23_turn_2": {
+    "C_t": 0.5458373952527491,
+    "s_stab": 0.8903766510292597,
+    "s_dep": 0.4937428769443996,
+    "s_cos": 0.8505743145942688,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_23_turn_3": {
+    "C_t": 0.5009258513304302,
+    "s_stab": 0.9080670900440487,
+    "s_dep": 0.29530249555928934,
+    "s_cos": 0.8273941278457642,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_23_turn_4": {
+    "C_t": 0.5537545090169583,
+    "s_stab": 0.9381254061971269,
+    "s_dep": 0.5206553618202613,
+    "s_cos": 0.8247018257776896,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_24_turn_0": {
+    "C_t": 0.20511845541481447,
+    "s_stab": 0.9223103083320872,
+    "s_dep": 0.05444424126226758,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_24_turn_1": {
+    "C_t": 0.5531249017883498,
+    "s_stab": 0.896258976923077,
+    "s_dep": 0.5291907725585818,
+    "s_cos": 0.8459348479906718,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_24_turn_2": {
+    "C_t": 0.5109482959517562,
+    "s_stab": 0.8789845120693756,
+    "s_dep": 0.32087635196095693,
+    "s_cos": 0.8632583816846212,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_24_turn_3": {
+    "C_t": 0.5263166631107927,
+    "s_stab": 0.8113395458333824,
+    "s_dep": 0.5220296244829626,
+    "s_cos": 0.8210304578145345,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_25_turn_1": {
+    "C_t": 0.49946163398176946,
+    "s_stab": 0.9347315463957171,
+    "s_dep": 0.275045881750227,
+    "s_cos": 0.818027913570404,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_25_turn_2": {
+    "C_t": 0.5467817862086346,
+    "s_stab": 0.904824437421881,
+    "s_dep": 0.47705011028901606,
+    "s_cos": 0.8552937706311544,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_26_turn_0": {
+    "C_t": 0.21323899708802505,
+    "s_stab": 0.9428876420603387,
+    "s_dep": 0.07253615359692361,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_26_turn_1": {
+    "C_t": 0.5520712758601127,
+    "s_stab": 0.9615550904525304,
+    "s_dep": 0.5412004046020493,
+    "s_cos": 0.7883087396621704,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_26_turn_4": {
+    "C_t": 0.5372981571043982,
+    "s_stab": 0.906892613027052,
+    "s_dep": 0.41659629176201646,
+    "s_cos": 0.8645516236623129,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_27_turn_0": {
+    "C_t": 0.18779790469038996,
+    "s_stab": 0.8942757366209045,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_27_turn_1": {
+    "C_t": 0.6016565780734785,
+    "s_stab": 0.9517814740755264,
+    "s_dep": 0.7085909898318784,
+    "s_cos": 0.843261202176412,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_28_turn_1": {
+    "C_t": 0.5174458509865801,
+    "s_stab": 0.9511192407289509,
+    "s_dep": 0.451797358245478,
+    "s_cos": 0.7427778840065002,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_28_turn_2": {
+    "C_t": 0.5386108345284679,
+    "s_stab": 0.848634787688168,
+    "s_dep": 0.5007461115891231,
+    "s_cos": 0.8508028189341227,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_28_turn_3": {
+    "C_t": 0.5153806265542635,
+    "s_stab": 0.9492673800648266,
+    "s_dep": 0.26216336083550146,
+    "s_cos": 0.8699339032173157,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_28_turn_4": {
+    "C_t": 0.5226007092370986,
+    "s_stab": 0.8772752336449552,
+    "s_dep": 0.46880560332778026,
+    "s_cos": 0.799745778242747,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_29_turn_4": {
+    "C_t": 0.46916851774975665,
+    "s_stab": 0.8789103567820041,
+    "s_dep": 0.31826061680489076,
+    "s_cos": 0.7258753776550293,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_30_turn_0": {
+    "C_t": 0.20133716254634423,
+    "s_stab": 0.9176093619506962,
+    "s_dep": 0.04113903112713347,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_30_turn_2": {
+    "C_t": 0.5678354076467061,
+    "s_stab": 0.8619186048651093,
+    "s_dep": 0.7504992879022637,
+    "s_cos": 0.7640921672185262,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_31_turn_1": {
+    "C_t": 0.5563018525781543,
+    "s_stab": 0.98814094619226,
+    "s_dep": 0.527053442011092,
+    "s_cos": 0.7937034368515015,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_32_turn_4": {
+    "C_t": 0.566557263869732,
+    "s_stab": 0.9397619938998156,
+    "s_dep": 0.5221768505969033,
+    "s_cos": 0.8651670217514038,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_33_turn_0": {
+    "C_t": 0.19924877671248042,
+    "s_stab": 0.9488036986308592,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_33_turn_1": {
+    "C_t": 0.5972520126565342,
+    "s_stab": 0.8852325564673496,
+    "s_dep": 0.7447800700595198,
+    "s_cos": 0.849831203619639,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_33_turn_2": {
+    "C_t": 0.5191157036516463,
+    "s_stab": 0.8869237902131092,
+    "s_dep": 0.3304354827538601,
+    "s_cos": 0.8782341877619425,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_33_turn_4": {
+    "C_t": 0.5808788430960251,
+    "s_stab": 0.7965684915250212,
+    "s_dep": 0.7450508435053879,
+    "s_cos": 0.8571292757987976,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_34_turn_0": {
+    "C_t": 0.20164502151575137,
+    "s_stab": 0.9602143881702447,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_34_turn_1": {
+    "C_t": 0.4710244066251785,
+    "s_stab": 0.900558229275617,
+    "s_dep": 0.16294079884580093,
+    "s_cos": 0.8256320357322693,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_34_turn_3": {
+    "C_t": 0.4789814027201562,
+    "s_stab": 0.7877503204663882,
+    "s_dep": 0.3606716577515568,
+    "s_cos": 0.7927092909812927,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_35_turn_0": {
+    "C_t": 0.36019251028714416,
+    "s_stab": 0.7910069143145791,
+    "s_dep": 0.9241955156242025,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_35_turn_1": {
+    "C_t": 0.5370516054211132,
+    "s_stab": 0.8906261323721782,
+    "s_dep": 0.5259468492172266,
+    "s_cos": 0.7985709309577942,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_35_turn_2": {
+    "C_t": 0.538479861058643,
+    "s_stab": 0.9218781815279617,
+    "s_dep": 0.458072614505932,
+    "s_cos": 0.8289673129717509,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_35_turn_4": {
+    "C_t": 0.5824316494955184,
+    "s_stab": 0.8600302236660797,
+    "s_dep": 0.7095783933963201,
+    "s_cos": 0.8427127997080485,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_36_turn_0": {
+    "C_t": 0.18957068934517735,
+    "s_stab": 0.9027175683103684,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_36_turn_1": {
+    "C_t": 0.5359622546332058,
+    "s_stab": 0.9519890177459706,
+    "s_dep": 0.3996427240696349,
+    "s_cos": 0.8403986295064291,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_36_turn_2": {
+    "C_t": 0.49210059755980595,
+    "s_stab": 0.9179599444740347,
+    "s_dep": 0.2171302814580913,
+    "s_cos": 0.8457721670468649,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_36_turn_3": {
+    "C_t": 0.5567089439431383,
+    "s_stab": 0.7969840296475402,
+    "s_dep": 0.6600559401333376,
+    "s_cos": 0.8357685009638468,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_37_turn_1": {
+    "C_t": 0.5071206143112739,
+    "s_stab": 0.9259381520043317,
+    "s_dep": 0.3937521902723706,
+    "s_cos": 0.766618808110555,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_37_turn_4": {
+    "C_t": 0.5202515649396884,
+    "s_stab": 0.9497636601670925,
+    "s_dep": 0.33386394054000146,
+    "s_cos": 0.8356325626373291,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_38_turn_0": {
+    "C_t": 0.20031549733351214,
+    "s_stab": 0.8813471670388486,
+    "s_dep": 0.07253615359692361,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_38_turn_1": {
+    "C_t": 0.5915954115467883,
+    "s_stab": 0.9138215856179832,
+    "s_dep": 0.6428736894983699,
+    "s_cos": 0.8822980125745138,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_38_turn_2": {
+    "C_t": 0.4960046886853295,
+    "s_stab": 0.7623900624260113,
+    "s_dep": 0.3353853228080408,
+    "s_cos": 0.8849061926205953,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_38_turn_3": {
+    "C_t": 0.4767592578368599,
+    "s_stab": 0.9330108501530193,
+    "s_dep": 0.3167145281811317,
+    "s_cos": 0.7143897612889608,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_38_turn_4": {
+    "C_t": 0.6105351051292432,
+    "s_stab": 0.8989033621972279,
+    "s_dep": 0.817670623883493,
+    "s_cos": 0.8335152268409729,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_39_turn_0": {
+    "C_t": 0.1982137120176485,
+    "s_stab": 0.9027357880045261,
+    "s_dep": 0.04113903112713347,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_39_turn_1": {
+    "C_t": 0.6381690626948793,
+    "s_stab": 0.9791518664246102,
+    "s_dep": 0.8629130788614857,
+    "s_cos": 0.8377847472826639,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_39_turn_2": {
+    "C_t": 0.48450555388577177,
+    "s_stab": 0.8368783404986114,
+    "s_dep": 0.336344357628259,
+    "s_cos": 0.7937626242637634,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_39_turn_4": {
+    "C_t": 0.47809636356792573,
+    "s_stab": 0.8659813951936267,
+    "s_dep": 0.28134329187677204,
+    "s_cos": 0.7905272642771403,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_40_turn_0": {
+    "C_t": 0.18847346386052244,
+    "s_stab": 0.897492685050107,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_40_turn_1": {
+    "C_t": 0.6044568452830039,
+    "s_stab": 0.9634683857356681,
+    "s_dep": 0.704360559013125,
+    "s_cos": 0.8473758896191915,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_40_turn_4": {
+    "C_t": 0.5819805466712825,
+    "s_stab": 0.8561164025619493,
+    "s_dep": 0.8290515569982033,
+    "s_cos": 0.7603175838788351,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_41_turn_0": {
+    "C_t": 0.20630125835958224,
+    "s_stab": 0.9016114073933356,
+    "s_dep": 0.08077553717610382,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_42_turn_0": {
+    "C_t": 0.1850829050781582,
+    "s_stab": 0.8813471670388486,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_42_turn_1": {
+    "C_t": 0.4904153029125169,
+    "s_stab": 0.9817228476272096,
+    "s_dep": 0.16680188140574007,
+    "s_cos": 0.8307503660519918,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_42_turn_2": {
+    "C_t": 0.5919216304254524,
+    "s_stab": 0.9118905066206605,
+    "s_dep": 0.7219579699936073,
+    "s_cos": 0.8293781677881876,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_42_turn_4": {
+    "C_t": 0.5776943900400217,
+    "s_stab": 0.8056042547560044,
+    "s_dep": 0.7858147164901056,
+    "s_cos": 0.8116546869277954,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_43_turn_0": {
+    "C_t": 0.19175291192013597,
+    "s_stab": 0.9131091043816,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_43_turn_1": {
+    "C_t": 0.5720337947714327,
+    "s_stab": 0.9835818418554788,
+    "s_dep": 0.44501871754376215,
+    "s_cos": 0.9067589243253072,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_43_turn_3": {
+    "C_t": 0.5428207536113527,
+    "s_stab": 0.8664326684295292,
+    "s_dep": 0.4561135447603581,
+    "s_cos": 0.8836201628049215,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_43_turn_4": {
+    "C_t": 0.5452262660152523,
+    "s_stab": 0.9399593402271817,
+    "s_dep": 0.44243470502679516,
+    "s_cos": 0.8497450550397238,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_44_turn_0": {
+    "C_t": 0.20714613139579321,
+    "s_stab": 0.9864101495037774,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_44_turn_1": {
+    "C_t": 0.5257536384773978,
+    "s_stab": 0.8879718403072935,
+    "s_dep": 0.3431683292000322,
+    "s_cos": 0.8907140096028646,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_44_turn_2": {
+    "C_t": 0.5838896202211028,
+    "s_stab": 0.9196706676717914,
+    "s_dep": 0.6365939992168682,
+    "s_cos": 0.8569134672482809,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_44_turn_3": {
+    "C_t": 0.5667638848844258,
+    "s_stab": 0.8589134721980229,
+    "s_dep": 0.6602095931899375,
+    "s_cos": 0.8258268038431803,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_44_turn_4": {
+    "C_t": 0.5707863676744519,
+    "s_stab": 0.897280053213507,
+    "s_dep": 0.5866666392559811,
+    "s_cos": 0.8638585408528646,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_45_turn_0": {
+    "C_t": 0.2005010611702584,
+    "s_stab": 0.9547669579536114,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_45_turn_1": {
+    "C_t": 0.5213637538696987,
+    "s_stab": 0.8408314636330153,
+    "s_dep": 0.399966207401994,
+    "s_cos": 0.869320809841156,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_45_turn_2": {
+    "C_t": 0.532539687847491,
+    "s_stab": 0.9256949706733232,
+    "s_dep": 0.4181085689405403,
+    "s_cos": 0.8344698150952657,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_45_turn_3": {
+    "C_t": 0.5078780495391413,
+    "s_stab": 0.9275599653311215,
+    "s_dep": 0.3170036763240041,
+    "s_cos": 0.8217322826385498,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_45_turn_4": {
+    "C_t": 0.5421664065713521,
+    "s_stab": 0.7813552328668557,
+    "s_dep": 0.6727100704222949,
+    "s_cos": 0.7893756429354349,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_46_turn_2": {
+    "C_t": 0.5550840329676248,
+    "s_stab": 0.9841019294012007,
+    "s_dep": 0.48953044578490285,
+    "s_cos": 0.8187374472618103,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_46_turn_3": {
+    "C_t": 0.5519639091166821,
+    "s_stab": 0.9864621157223017,
+    "s_dep": 0.4785035477604281,
+    "s_cos": 0.8144037326176962,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_47_turn_0": {
+    "C_t": 0.2529456683952767,
+    "s_stab": 0.7424053778004771,
+    "s_dep": 0.46209780503417397,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_47_turn_1": {
+    "C_t": 0.5375217887539283,
+    "s_stab": 0.9383690959940552,
+    "s_dep": 0.5208562505459381,
+    "s_cos": 0.7702815532684326,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_47_turn_2": {
+    "C_t": 0.5974838608544892,
+    "s_stab": 0.8810904821913599,
+    "s_dep": 0.6915473851883146,
+    "s_cos": 0.8907663623491923,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_47_turn_3": {
+    "C_t": 0.5564253514110313,
+    "s_stab": 0.8668653552458235,
+    "s_dep": 0.627339843864905,
+    "s_cos": 0.8088075319925944,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_47_turn_4": {
+    "C_t": 0.4996224909831656,
+    "s_stab": 0.9635870476843738,
+    "s_dep": 0.3454880948815979,
+    "s_cos": 0.7490557034810384,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_48_turn_1": {
+    "C_t": 0.6063471208539427,
+    "s_stab": 0.8853386770231066,
+    "s_dep": 0.7193426835692535,
+    "s_cos": 0.8978801170984904,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_48_turn_2": {
+    "C_t": 0.5277808237755475,
+    "s_stab": 0.9061602078940197,
+    "s_dep": 0.42061579172591185,
+    "s_cos": 0.8305262128512064,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_48_turn_4": {
+    "C_t": 0.5847936222942904,
+    "s_stab": 0.9345878948795265,
+    "s_dep": 0.5910801008043153,
+    "s_cos": 0.8813444773356119,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_50_turn_1": {
+    "C_t": 0.5352072112929571,
+    "s_stab": 0.8439859841414943,
+    "s_dep": 0.44525186381667886,
+    "s_cos": 0.8815575440724691,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_50_turn_4": {
+    "C_t": 0.51715491281476,
+    "s_stab": 0.8631354481427314,
+    "s_dep": 0.46551134163352503,
+    "s_cos": 0.793796956539154,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_51_turn_1": {
+    "C_t": 0.5581982409281044,
+    "s_stab": 0.9397739646685371,
+    "s_dep": 0.5322541201746355,
+    "s_cos": 0.8302411437034607,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_51_turn_2": {
+    "C_t": 0.5041344723382896,
+    "s_stab": 0.9505728211658591,
+    "s_dep": 0.2404875900448565,
+    "s_cos": 0.846705953280131,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_51_turn_4": {
+    "C_t": 0.5428580753124197,
+    "s_stab": 0.8740415521743786,
+    "s_dep": 0.5113754286543873,
+    "s_cos": 0.8397350311279297,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_52_turn_0": {
+    "C_t": 0.18677486254706385,
+    "s_stab": 0.8482650762398374,
+    "s_dep": 0.04113903112713347,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_52_turn_1": {
+    "C_t": 0.5724645796771656,
+    "s_stab": 0.918163244997795,
+    "s_dep": 0.6274842528585434,
+    "s_cos": 0.8262620170911154,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_52_turn_4": {
+    "C_t": 0.4963636951441792,
+    "s_stab": 0.7266133554897949,
+    "s_dep": 0.4662213135756938,
+    "s_cos": 0.8195613821347555,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_53_turn_0": {
+    "C_t": 0.1944394609349659,
+    "s_stab": 0.9259021949284091,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_53_turn_1": {
+    "C_t": 0.4998312501412455,
+    "s_stab": 0.787978054876979,
+    "s_dep": 0.3808717389572836,
+    "s_cos": 0.8479093114535013,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_53_turn_2": {
+    "C_t": 0.5555202608109286,
+    "s_stab": 0.8714709705287081,
+    "s_dep": 0.5649299561524487,
+    "s_cos": 0.8462535540262858,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_53_turn_4": {
+    "C_t": 0.47138422921873346,
+    "s_stab": 0.8651556485786395,
+    "s_dep": 0.2718799349050234,
+    "s_cos": 0.775355855623881,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_54_turn_0": {
+    "C_t": 0.19148775882419558,
+    "s_stab": 0.9118464705914076,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_54_turn_1": {
+    "C_t": 0.5080445202072332,
+    "s_stab": 0.9136673880683917,
+    "s_dep": 0.23722276164221764,
+    "s_cos": 0.8878586292266846,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_54_turn_2": {
+    "C_t": 0.5099773061669803,
+    "s_stab": 0.9567224232313549,
+    "s_dep": 0.18964077287527234,
+    "s_cos": 0.8974701166152954,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_54_turn_3": {
+    "C_t": 0.5256609257228668,
+    "s_stab": 0.9387759389006866,
+    "s_dep": 0.3720993331725177,
+    "s_cos": 0.8345903952916464,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_54_turn_4": {
+    "C_t": 0.5779910124008183,
+    "s_stab": 0.7884815428945225,
+    "s_dep": 0.798101929853282,
+    "s_cos": 0.8160282770792643,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_55_turn_0": {
+    "C_t": 0.18896390066803143,
+    "s_stab": 0.8998280984191973,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_55_turn_1": {
+    "C_t": 0.5623705031704047,
+    "s_stab": 0.8970413104992456,
+    "s_dep": 0.5087927636683257,
+    "s_cos": 0.8904844919840494,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_55_turn_2": {
+    "C_t": 0.5466233555819486,
+    "s_stab": 0.8190939803251065,
+    "s_dep": 0.5093203029400407,
+    "s_cos": 0.8921878536542257,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_55_turn_3": {
+    "C_t": 0.44628146822012627,
+    "s_stab": 0.7517325458239895,
+    "s_dep": 0.1081458548895549,
+    "s_cos": 0.8856900135676066,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_55_turn_4": {
+    "C_t": 0.5469490291441034,
+    "s_stab": 0.8389518043177701,
+    "s_dep": 0.5570480709044242,
+    "s_cos": 0.8459635178248087,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_56_turn_1": {
+    "C_t": 0.5767766138496631,
+    "s_stab": 0.9186410130107354,
+    "s_dep": 0.6343543549205597,
+    "s_cos": 0.835491955280304,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_56_turn_4": {
+    "C_t": 0.5352405000064778,
+    "s_stab": 0.9136470294752933,
+    "s_dep": 0.43120416365661923,
+    "s_cos": 0.8427391648292542,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_57_turn_0": {
+    "C_t": 0.19535649201073782,
+    "s_stab": 0.9302690095749421,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_58_turn_4": {
+    "C_t": 0.5437239829183937,
+    "s_stab": 0.9017237869783048,
+    "s_dep": 0.42015575483948636,
+    "s_cos": 0.8870975971221924,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_59_turn_2": {
+    "C_t": 0.6160730097134288,
+    "s_stab": 0.8392051671307044,
+    "s_dep": 0.7804878043861697,
+    "s_cos": 0.9197916189829508,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_60_turn_0": {
+    "C_t": 0.1888726989076819,
+    "s_stab": 0.8993938043222949,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_60_turn_2": {
+    "C_t": 0.5453106845780211,
+    "s_stab": 0.937746405744966,
+    "s_dep": 0.48107025219368776,
+    "s_cos": 0.8245306213696798,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_60_turn_3": {
+    "C_t": 0.5616322706614518,
+    "s_stab": 0.8158711922820377,
+    "s_dep": 0.6395211676836162,
+    "s_cos": 0.8533329168955485,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_60_turn_4": {
+    "C_t": 0.5286693357485794,
+    "s_stab": 0.9370333742741972,
+    "s_dep": 0.4381088873758087,
+    "s_cos": 0.7996315360069275,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_61_turn_0": {
+    "C_t": 0.1959396829441647,
+    "s_stab": 0.9330461092579272,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_62_turn_0": {
+    "C_t": 0.1984462498096711,
+    "s_stab": 0.9449821419508148,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_62_turn_1": {
+    "C_t": 0.5241603733577798,
+    "s_stab": 0.941164579886149,
+    "s_dep": 0.4547715466139685,
+    "s_cos": 0.7700459559758505,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_62_turn_2": {
+    "C_t": 0.5933666017072052,
+    "s_stab": 0.7661514724566948,
+    "s_dep": 0.8717544612946134,
+    "s_cos": 0.8313545187314352,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_62_turn_4": {
+    "C_t": 0.5152087239962875,
+    "s_stab": 0.9260871175028608,
+    "s_dep": 0.3949554166583493,
+    "s_cos": 0.7926326394081116,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_63_turn_0": {
+    "C_t": 0.20081789570125946,
+    "s_stab": 0.9562756938155214,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_63_turn_1": {
+    "C_t": 0.6159468608680547,
+    "s_stab": 0.7484409267860657,
+    "s_dep": 1.0,
+    "s_cos": 0.8292475541432699,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_63_turn_3": {
+    "C_t": 0.5386581024634056,
+    "s_stab": 0.808583289461862,
+    "s_dep": 0.553097744756463,
+    "s_cos": 0.8423502842585245,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_63_turn_4": {
+    "C_t": 0.5628572448207274,
+    "s_stab": 0.8582284778832896,
+    "s_dep": 0.6645175723389217,
+    "s_cos": 0.8102685809135437,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_64_turn_0": {
+    "C_t": 0.20683872289438504,
+    "s_stab": 0.8020408310447971,
+    "s_dep": 0.1829054684522747,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_64_turn_1": {
+    "C_t": 0.5395385482654642,
+    "s_stab": 0.9695076678688156,
+    "s_dep": 0.4471963523407579,
+    "s_cos": 0.8067690134048462,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_64_turn_2": {
+    "C_t": 0.569855885542135,
+    "s_stab": 0.8650442845222491,
+    "s_dep": 0.5938057304287742,
+    "s_cos": 0.8783246080080668,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_64_turn_3": {
+    "C_t": 0.5408907296895877,
+    "s_stab": 0.9006110887081383,
+    "s_dep": 0.43877425173265355,
+    "s_cos": 0.8653993606567383,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_64_turn_4": {
+    "C_t": 0.5332110286410978,
+    "s_stab": 0.8929466797040138,
+    "s_dep": 0.4697068371942223,
+    "s_cos": 0.8235126336415609,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_65_turn_0": {
+    "C_t": 0.19061597117048593,
+    "s_stab": 0.9076951008118379,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_65_turn_4": {
+    "C_t": 0.5385494558464222,
+    "s_stab": 0.7567462472303482,
+    "s_dep": 0.677240475459771,
+    "s_cos": 0.791374146938324,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_66_turn_1": {
+    "C_t": 0.5643058402793838,
+    "s_stab": 0.8625716094752598,
+    "s_dep": 0.6270819132741196,
+    "s_cos": 0.8382620016733805,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_66_turn_2": {
+    "C_t": 0.5291522469574765,
+    "s_stab": 0.929065851895056,
+    "s_dep": 0.4656601702153065,
+    "s_cos": 0.7875326077143351,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_66_turn_4": {
+    "C_t": 0.5265509747793378,
+    "s_stab": 0.9612623026461832,
+    "s_dep": 0.40416443041719186,
+    "s_cos": 0.7993712027867635,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_67_turn_0": {
+    "C_t": 0.20714613139579321,
+    "s_stab": 0.9864101495037774,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_67_turn_1": {
+    "C_t": 0.542630380870637,
+    "s_stab": 0.9037920815616022,
+    "s_dep": 0.5515759513561885,
+    "s_cos": 0.7900103131930033,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_67_turn_2": {
+    "C_t": 0.5616395452691109,
+    "s_stab": 0.8054050731679124,
+    "s_dep": 0.759331567036123,
+    "s_cos": 0.776816169420878,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_67_turn_3": {
+    "C_t": 0.47729626755916243,
+    "s_stab": 0.840692671265959,
+    "s_dep": 0.38997969297857643,
+    "s_cos": 0.7295169035593668,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_67_turn_4": {
+    "C_t": 0.5282518418605403,
+    "s_stab": 0.8921193607380828,
+    "s_dep": 0.4519653940729675,
+    "s_cos": 0.8199801445007324,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_68_turn_0": {
+    "C_t": 0.20581587163688786,
+    "s_stab": 0.9800755792232756,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_68_turn_1": {
+    "C_t": 0.4907353512170086,
+    "s_stab": 0.8954420892085428,
+    "s_dep": 0.19497370819636442,
+    "s_cos": 0.8724934458732605,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_69_turn_0": {
+    "C_t": 0.2028104916195545,
+    "s_stab": 0.9657642458074025,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_69_turn_1": {
+    "C_t": 0.5399516587651553,
+    "s_stab": 0.9346628760265807,
+    "s_dep": 0.4604073102765649,
+    "s_cos": 0.8232897321383158,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_69_turn_4": {
+    "C_t": 0.5660328641409229,
+    "s_stab": 0.8417906577258549,
+    "s_dep": 0.735537707688321,
+    "s_cos": 0.7826463580131531,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_70_turn_1": {
+    "C_t": 0.48270161045150606,
+    "s_stab": 0.8443274523070419,
+    "s_dep": 0.30483871223101644,
+    "s_cos": 0.804589052995046,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_70_turn_2": {
+    "C_t": 0.5092962957086666,
+    "s_stab": 0.9744187966142672,
+    "s_dep": 0.2882610019615918,
+    "s_cos": 0.8137784600257874,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_70_turn_4": {
+    "C_t": 0.5385301194512117,
+    "s_stab": 0.821070229828567,
+    "s_dep": 0.5450806138538299,
+    "s_cos": 0.8387948075930277,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_71_turn_0": {
+    "C_t": 0.1929162318594891,
+    "s_stab": 0.9186487231404245,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_71_turn_1": {
+    "C_t": 0.4676072205015024,
+    "s_stab": 0.8485718088890537,
+    "s_dep": 0.3200431694225004,
+    "s_cos": 0.7406602501869202,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_71_turn_3": {
+    "C_t": 0.5556668559178946,
+    "s_stab": 0.9083781324032736,
+    "s_dep": 0.5393985274303721,
+    "s_cos": 0.8387791911760966,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_71_turn_4": {
+    "C_t": 0.5413795233941915,
+    "s_stab": 0.8734553509389327,
+    "s_dep": 0.5170319742416105,
+    "s_cos": 0.8312572836875916,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_72_turn_0": {
+    "C_t": 0.16810900502414586,
+    "s_stab": 0.8005190715435517,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_72_turn_2": {
+    "C_t": 0.5865027482682394,
+    "s_stab": 0.940443711309547,
+    "s_dep": 0.5869861623754608,
+    "s_cos": 0.8858082493146261,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_72_turn_3": {
+    "C_t": 0.5503424992673258,
+    "s_stab": 0.9649928578393612,
+    "s_dep": 0.35135953913354667,
+    "s_cos": 0.9130283196767172,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_72_turn_4": {
+    "C_t": 0.5882824772215924,
+    "s_stab": 0.8790562800921841,
+    "s_dep": 0.7288867521957251,
+    "s_cos": 0.8353814681371053,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_73_turn_1": {
+    "C_t": 0.5070397055095801,
+    "s_stab": 0.9300333003567482,
+    "s_dep": 0.297941267712408,
+    "s_cos": 0.8305501540501913,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_74_turn_0": {
+    "C_t": 0.19748754588339093,
+    "s_stab": 0.9404168851590045,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_74_turn_2": {
+    "C_t": 0.5826295319208077,
+    "s_stab": 0.9630587885242682,
+    "s_dep": 0.5377636604940869,
+    "s_cos": 0.8915227254231771,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_74_turn_4": {
+    "C_t": 0.50726805686416,
+    "s_stab": 0.8697724689755821,
+    "s_dep": 0.32224457533881806,
+    "s_cos": 0.8564815918604533,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_75_turn_1": {
+    "C_t": 0.5410053563176841,
+    "s_stab": 0.8974836872719881,
+    "s_dep": 0.4122542789302119,
+    "s_cos": 0.8865346113840739,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_75_turn_2": {
+    "C_t": 0.5464428039520218,
+    "s_stab": 0.821565378379996,
+    "s_dep": 0.5473110770032832,
+    "s_cos": 0.8632624944051107,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_75_turn_3": {
+    "C_t": 0.5957014781614977,
+    "s_stab": 0.8744369167903522,
+    "s_dep": 0.717818650191148,
+    "s_cos": 0.871092696984609,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_75_turn_4": {
+    "C_t": 0.5495933496536404,
+    "s_stab": 0.9040632993859362,
+    "s_dep": 0.48201031244761633,
+    "s_cos": 0.8617263038953146,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_76_turn_0": {
+    "C_t": 0.1948630950939347,
+    "s_stab": 0.9279195004473083,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_76_turn_1": {
+    "C_t": 0.5035054992223817,
+    "s_stab": 0.9832347212747474,
+    "s_dep": 0.23868306624356359,
+    "s_cos": 0.823009212811788,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_76_turn_2": {
+    "C_t": 0.5290721945870186,
+    "s_stab": 0.969386857858243,
+    "s_dep": 0.2794574614911259,
+    "s_cos": 0.8893829584121704,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_76_turn_3": {
+    "C_t": 0.49055146400078764,
+    "s_stab": 0.9532542265624421,
+    "s_dep": 0.22705079193561495,
+    "s_cos": 0.8089580337206522,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_76_turn_4": {
+    "C_t": 0.5558770679874758,
+    "s_stab": 0.785333723068693,
+    "s_dep": 0.6656103483923737,
+    "s_cos": 0.8372627099355062,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_77_turn_0": {
+    "C_t": 0.20118003162938444,
+    "s_stab": 0.9168611194889829,
+    "s_dep": 0.04113903112713347,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_77_turn_1": {
+    "C_t": 0.47764056499633545,
+    "s_stab": 0.9464816092683483,
+    "s_dep": 0.1653877285474245,
+    "s_cos": 0.8138266801834106,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_77_turn_2": {
+    "C_t": 0.6294267971897973,
+    "s_stab": 0.7853337335136453,
+    "s_dep": 1.0,
+    "s_cos": 0.8483557105064392,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_77_turn_3": {
+    "C_t": 0.5085359877411995,
+    "s_stab": 0.9144414734590312,
+    "s_dep": 0.3892612074090083,
+    "s_cos": 0.7825280825297037,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_77_turn_4": {
+    "C_t": 0.5141776620459314,
+    "s_stab": 0.9342520517970213,
+    "s_dep": 0.41106990959440304,
+    "s_cos": 0.7722001671791077,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_78_turn_0": {
+    "C_t": 0.1904346585566803,
+    "s_stab": 0.9068317074127633,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_78_turn_4": {
+    "C_t": 0.532495338175816,
+    "s_stab": 0.8790809235635034,
+    "s_dep": 0.43177045384667917,
+    "s_cos": 0.8573884963989258,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_79_turn_0": {
+    "C_t": 0.26552699568979454,
+    "s_stab": 0.8023165638926426,
+    "s_dep": 0.46209770129685546,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_79_turn_1": {
+    "C_t": 0.5585530932882558,
+    "s_stab": 0.8790545373058873,
+    "s_dep": 0.7980158912146158,
+    "s_cos": 0.687894344329834,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_79_turn_3": {
+    "C_t": 0.5537357117107455,
+    "s_stab": 0.8385416206660324,
+    "s_dep": 0.7345578285498423,
+    "s_cos": 0.7446160912513733,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_80_turn_2": {
+    "C_t": 0.5531734453204081,
+    "s_stab": 0.9433500476694633,
+    "s_dep": 0.46483261238929546,
+    "s_cos": 0.8581836223602295,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_81_turn_1": {
+    "C_t": 0.5724361148252227,
+    "s_stab": 0.8408405730643599,
+    "s_dep": 0.6135816864433772,
+    "s_cos": 0.8900248010953268,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_81_turn_3": {
+    "C_t": 0.5337346247762147,
+    "s_stab": 0.8684271138711872,
+    "s_dep": 0.49878544464510705,
+    "s_cos": 0.8220666249593099,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_81_turn_4": {
+    "C_t": 0.5579824883372477,
+    "s_stab": 0.8682095589033512,
+    "s_dep": 0.5973755965415565,
+    "s_cos": 0.8340320189793905,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_82_turn_1": {
+    "C_t": 0.5650403496686791,
+    "s_stab": 0.9404662144466497,
+    "s_dep": 0.5120389753317455,
+    "s_cos": 0.8667141993840536,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_82_turn_2": {
+    "C_t": 0.557003639203372,
+    "s_stab": 0.9329143873050275,
+    "s_dep": 0.511172972628894,
+    "s_cos": 0.8458176453908285,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_82_turn_4": {
+    "C_t": 0.5195445004149022,
+    "s_stab": 0.9002959107639211,
+    "s_dep": 0.39449970600839657,
+    "s_cos": 0.8254580696423849,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_0_turn_0": {
+    "C_t": 0.17589354635826884,
+    "s_stab": 0.8375883159917565,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_0_turn_1": {
+    "C_t": 0.534249680310553,
+    "s_stab": 0.9467719035846348,
+    "s_dep": 0.34332121309078056,
+    "s_cos": 0.8777670860290527,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_0_turn_2": {
+    "C_t": 0.5477865337140182,
+    "s_stab": 0.904420020274897,
+    "s_dep": 0.5755876900716443,
+    "s_cos": 0.7899497151374817,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_0_turn_3": {
+    "C_t": 0.541339465850247,
+    "s_stab": 0.746853653958583,
+    "s_dep": 0.6940975026276036,
+    "s_cos": 0.7957990765571594,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_1_turn_2": {
+    "C_t": 0.5241341664290345,
+    "s_stab": 0.9033484889418947,
+    "s_dep": 0.3468967765532754,
+    "s_cos": 0.8719422022501627,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_4_turn_0": {
+    "C_t": 0.19894813811111972,
+    "s_stab": 0.9473720862434273,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_4_turn_1": {
+    "C_t": 0.5254731703109259,
+    "s_stab": 0.8979163381256645,
+    "s_dep": 0.5066429564021591,
+    "s_cos": 0.7683857282002767,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_4_turn_3": {
+    "C_t": 0.4894465243112306,
+    "s_stab": 0.9376297840965397,
+    "s_dep": 0.28937274543908487,
+    "s_cos": 0.7725866436958313,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_6_turn_3": {
+    "C_t": 0.42917783399497417,
+    "s_stab": 0.9395242749541493,
+    "s_dep": 0.03843970716978919,
+    "s_cos": 0.7460179924964905,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_6_turn_4": {
+    "C_t": 0.5663853094923863,
+    "s_stab": 0.9015012388498551,
+    "s_dep": 0.675429180918926,
+    "s_cos": 0.7840997378031412,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_8_turn_0": {
+    "C_t": 0.18714766968184013,
+    "s_stab": 0.891179379437334,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_8_turn_2": {
+    "C_t": 0.4859863826768187,
+    "s_stab": 0.9106285239515879,
+    "s_dep": 0.22003571544013825,
+    "s_cos": 0.8284896413485209,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_9_turn_0": {
+    "C_t": 0.19323464944206745,
+    "s_stab": 0.9201649973431784,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_9_turn_2": {
+    "C_t": 0.48331397350134253,
+    "s_stab": 0.9570779537726617,
+    "s_dep": 0.21363706299267748,
+    "s_cos": 0.7915460666020712,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_9_turn_3": {
+    "C_t": 0.4869843783994765,
+    "s_stab": 0.9166207939117061,
+    "s_dep": 0.2484847377109057,
+    "s_cos": 0.8077073891957601,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_10_turn_1": {
+    "C_t": 0.5250276950606645,
+    "s_stab": 0.7939752912663606,
+    "s_dep": 0.5564867043395229,
+    "s_cos": 0.8047689199447632,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_10_turn_3": {
+    "C_t": 0.5230205684132262,
+    "s_stab": 0.8202358509251574,
+    "s_dep": 0.497375215777127,
+    "s_cos": 0.8210741480191549,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_14_turn_4": {
+    "C_t": 0.5702974831168475,
+    "s_stab": 0.9403811393575665,
+    "s_dep": 0.5904551301879044,
+    "s_cos": 0.829406221707662,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_15_turn_1": {
+    "C_t": 0.5693023270888543,
+    "s_stab": 0.9055575706910916,
+    "s_dep": 0.6536245540349885,
+    "s_cos": 0.8062469363212585,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_15_turn_2": {
+    "C_t": 0.5020186114645467,
+    "s_stab": 0.7887150991486527,
+    "s_dep": 0.46567176880618577,
+    "s_cos": 0.7953245639801025,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_15_turn_3": {
+    "C_t": 0.5245582656570985,
+    "s_stab": 0.9566531578975797,
+    "s_dep": 0.3735341706211413,
+    "s_cos": 0.8173964222272238,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_16_turn_1": {
+    "C_t": 0.512345458895401,
+    "s_stab": 0.9130284663870027,
+    "s_dep": 0.4638115887458361,
+    "s_cos": 0.7440301577250162,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_16_turn_2": {
+    "C_t": 0.5659094175454173,
+    "s_stab": 0.9005149841496463,
+    "s_dep": 0.6710603437331363,
+    "s_cos": 0.7862619956334432,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_16_turn_3": {
+    "C_t": 0.5496433964306884,
+    "s_stab": 0.8593248686740116,
+    "s_dep": 0.6400507428387882,
+    "s_cos": 0.7825817267100016,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_18_turn_2": {
+    "C_t": 0.5552950588990007,
+    "s_stab": 0.8652921240695136,
+    "s_dep": 0.6246397451197874,
+    "s_cos": 0.8080312212308248,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_19_turn_0": {
+    "C_t": 0.21668064073965793,
+    "s_stab": 0.9592764213538285,
+    "s_dep": 0.07253615359692361,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_19_turn_1": {
+    "C_t": 0.5275076246955368,
+    "s_stab": 0.9590187922510569,
+    "s_dep": 0.3073656904630388,
+    "s_cos": 0.871889611085256,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_19_turn_2": {
+    "C_t": 0.5074327709361436,
+    "s_stab": 0.7908696043855963,
+    "s_dep": 0.3621309330195892,
+    "s_cos": 0.8843421936035156,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_20_turn_2": {
+    "C_t": 0.586840607933786,
+    "s_stab": 0.867253337882767,
+    "s_dep": 0.7843990711475008,
+    "s_cos": 0.7999786734580994,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_21_turn_0": {
+    "C_t": 0.2015557927252393,
+    "s_stab": 0.8790139519917025,
+    "s_dep": 0.08077553717610382,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_21_turn_2": {
+    "C_t": 0.5140481786449177,
+    "s_stab": 0.9380845842835521,
+    "s_dep": 0.3806057178421667,
+    "s_cos": 0.7904107173283895,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_21_turn_3": {
+    "C_t": 0.5651485061022952,
+    "s_stab": 0.7010284568802041,
+    "s_dep": 0.8060703481600661,
+    "s_cos": 0.8288591901461283,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_22_turn_1": {
+    "C_t": 0.5306987928386145,
+    "s_stab": 0.8179901114605327,
+    "s_dep": 0.5097871602622751,
+    "s_cos": 0.8395518859227499,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_22_turn_2": {
+    "C_t": 0.575724501394719,
+    "s_stab": 0.8724044057383632,
+    "s_dep": 0.6057520179414831,
+    "s_cos": 0.8843721747398376,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_25_turn_0": {
+    "C_t": 0.1941751780705587,
+    "s_stab": 0.9246437050978986,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_25_turn_3": {
+    "C_t": 0.5501947091413383,
+    "s_stab": 0.8620452167840209,
+    "s_dep": 0.58152338678877,
+    "s_cos": 0.8234843413035074,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_25_turn_4": {
+    "C_t": 0.5044928016929382,
+    "s_stab": 0.9181632304035172,
+    "s_dep": 0.3123888254457147,
+    "s_cos": 0.820256233215332,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_26_turn_2": {
+    "C_t": 0.5097117551415576,
+    "s_stab": 0.9904340215429589,
+    "s_dep": 0.26827751340817846,
+    "s_cos": 0.8179411093393961,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_26_turn_3": {
+    "C_t": 0.5018917981924125,
+    "s_stab": 0.9420019346333434,
+    "s_dep": 0.21317536537210216,
+    "s_cos": 0.8643485506375631,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_27_turn_2": {
+    "C_t": 0.5399313798978456,
+    "s_stab": 0.8492782597626918,
+    "s_dep": 0.5373275211919567,
+    "s_cos": 0.829147219657898,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_27_turn_3": {
+    "C_t": 0.5187500547937242,
+    "s_stab": 0.8407722422942316,
+    "s_dep": 0.5441981102663755,
+    "s_cos": 0.759687602519989,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_27_turn_4": {
+    "C_t": 0.5143644137398286,
+    "s_stab": 0.9768843605387234,
+    "s_dep": 0.24988761630304193,
+    "s_cos": 0.8558076620101929,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_28_turn_0": {
+    "C_t": 0.26622728711883165,
+    "s_stab": 0.8056511673830431,
+    "s_dep": 0.46209781889710766,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_29_turn_0": {
+    "C_t": 0.20214445233586956,
+    "s_stab": 0.890056476573884,
+    "s_dep": 0.07253615359692361,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_29_turn_1": {
+    "C_t": 0.5039535271235885,
+    "s_stab": 0.9464101833799887,
+    "s_dep": 0.4276566231731891,
+    "s_cos": 0.7179983258247375,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_29_turn_2": {
+    "C_t": 0.5291452312585723,
+    "s_stab": 0.7433911021243518,
+    "s_dep": 0.7230925249778585,
+    "s_cos": 0.7372788985570272,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_29_turn_3": {
+    "C_t": 0.5249687990631261,
+    "s_stab": 0.8015310947533678,
+    "s_dep": 0.6463636303487234,
+    "s_cos": 0.7363696893056234,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_30_turn_1": {
+    "C_t": 0.45219151228028454,
+    "s_stab": 0.9205130173035917,
+    "s_dep": 0.16158472164728158,
+    "s_cos": 0.7498366236686707,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_30_turn_3": {
+    "C_t": 0.6128972856170982,
+    "s_stab": 0.793961099059828,
+    "s_dep": 0.9482306829979547,
+    "s_cos": 0.8234567046165466,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_30_turn_4": {
+    "C_t": 0.5203171440748048,
+    "s_stab": 0.9396472675009389,
+    "s_dep": 0.4278070383993741,
+    "s_cos": 0.7771724661191305,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_31_turn_0": {
+    "C_t": 0.3632805566020382,
+    "s_stab": 0.8057117996164139,
+    "s_dep": 0.9241956127742442,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_31_turn_2": {
+    "C_t": 0.5279398329919726,
+    "s_stab": 0.9571380718096465,
+    "s_dep": 0.4298862266738419,
+    "s_cos": 0.7888824343681335,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_31_turn_3": {
+    "C_t": 0.5169086536058323,
+    "s_stab": 0.9363964734785764,
+    "s_dep": 0.30989905067985263,
+    "s_cos": 0.8506219784418741,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_31_turn_4": {
+    "C_t": 0.5714200758441548,
+    "s_stab": 0.8320585833733722,
+    "s_dep": 0.7850228201244169,
+    "s_cos": 0.7727766036987305,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_32_turn_0": {
+    "C_t": 0.19782873349442476,
+    "s_stab": 0.9420415880686895,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_32_turn_1": {
+    "C_t": 0.5311799983495675,
+    "s_stab": 0.9816250767812216,
+    "s_dep": 0.35862344188734435,
+    "s_cos": 0.8324260314305624,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_32_turn_2": {
+    "C_t": 0.5226997932147915,
+    "s_stab": 0.9393145933932082,
+    "s_dep": 0.33467049559093276,
+    "s_cos": 0.8505430817604065,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_32_turn_3": {
+    "C_t": 0.5880702257160182,
+    "s_stab": 0.9592817899633203,
+    "s_dep": 0.633830360866538,
+    "s_cos": 0.8450555801391602,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_34_turn_2": {
+    "C_t": 0.4946354053151123,
+    "s_stab": 0.809874190609468,
+    "s_dep": 0.42539109735158,
+    "s_cos": 0.7840989828109741,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_34_turn_4": {
+    "C_t": 0.5356031470231888,
+    "s_stab": 0.8590392869054326,
+    "s_dep": 0.5413110419168722,
+    "s_cos": 0.8050985932350159,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_35_turn_3": {
+    "C_t": 0.5885637580565369,
+    "s_stab": 0.9530753130088254,
+    "s_dep": 0.6399585282963683,
+    "s_cos": 0.8467555046081543,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_36_turn_4": {
+    "C_t": 0.48532770406181014,
+    "s_stab": 0.8231632008315111,
+    "s_dep": 0.4363640685514956,
+    "s_cos": 0.7360899249712626,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_37_turn_0": {
+    "C_t": 0.1975799875571408,
+    "s_stab": 0.8997180524782988,
+    "s_dep": 0.04113903112713347,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_37_turn_2": {
+    "C_t": 0.5608310656363564,
+    "s_stab": 0.7639638069960424,
+    "s_dep": 0.8268736965312274,
+    "s_cos": 0.755850632985433,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_37_turn_3": {
+    "C_t": 0.5444737199657704,
+    "s_stab": 0.8638318614145253,
+    "s_dep": 0.6214842693000174,
+    "s_cos": 0.7751911083857218,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_39_turn_3": {
+    "C_t": 0.6159231561685209,
+    "s_stab": 0.8327074043900909,
+    "s_dep": 0.9393211526269312,
+    "s_cos": 0.8126571973164877,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_40_turn_2": {
+    "C_t": 0.5611949785672885,
+    "s_stab": 0.9160737298012712,
+    "s_dep": 0.5965355571708346,
+    "s_cos": 0.8118234276771545,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_40_turn_3": {
+    "C_t": 0.516021068633293,
+    "s_stab": 0.9440381552499904,
+    "s_dep": 0.37918522244656416,
+    "s_cos": 0.7938138643900553,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_41_turn_1": {
+    "C_t": 0.5279777769149275,
+    "s_stab": 0.833434182949488,
+    "s_dep": 0.550243341237269,
+    "s_cos": 0.7913516561190287,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_41_turn_2": {
+    "C_t": 0.5337623819832711,
+    "s_stab": 0.9037361921297616,
+    "s_dep": 0.5054571349587785,
+    "s_cos": 0.7927726109822592,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_41_turn_3": {
+    "C_t": 0.5643200860716122,
+    "s_stab": 0.8675961478727681,
+    "s_dep": 0.7192015087887963,
+    "s_cos": 0.7703085939089457,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_41_turn_4": {
+    "C_t": 0.5690831900675035,
+    "s_stab": 0.8839384206959209,
+    "s_dep": 0.6761084796819093,
+    "s_cos": 0.8049111366271973,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_42_turn_3": {
+    "C_t": 0.5090328045794739,
+    "s_stab": 0.9097576894698503,
+    "s_dep": 0.36014422010732144,
+    "s_cos": 0.8078446785608927,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_43_turn_2": {
+    "C_t": 0.5271539299291677,
+    "s_stab": 0.9360549634925863,
+    "s_dep": 0.30214599838971834,
+    "s_cos": 0.8904390931129456,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_46_turn_0": {
+    "C_t": 0.16863278116152075,
+    "s_stab": 0.8030132436262893,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_46_turn_1": {
+    "C_t": 0.45353108251449414,
+    "s_stab": 0.882049393871947,
+    "s_dep": 0.19498463508377706,
+    "s_cos": 0.757846454779307,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_46_turn_4": {
+    "C_t": 0.5140360773792566,
+    "s_stab": 0.9213611928302962,
+    "s_dep": 0.43568931741285327,
+    "s_cos": 0.763518234093984,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_48_turn_3": {
+    "C_t": 0.5549330012990273,
+    "s_stab": 0.8818247144092257,
+    "s_dep": 0.4813712692510134,
+    "s_cos": 0.8955394824345907,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_49_turn_0": {
+    "C_t": 0.19232904408121312,
+    "s_stab": 0.9158525908629197,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_49_turn_1": {
+    "C_t": 0.5222421372622561,
+    "s_stab": 0.8646785732930393,
+    "s_dep": 0.38694342268693954,
+    "s_cos": 0.8646717270215353,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_49_turn_2": {
+    "C_t": 0.5592014942631309,
+    "s_stab": 0.9220872627075649,
+    "s_dep": 0.5114248961334175,
+    "s_cos": 0.8605464696884155,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_49_turn_3": {
+    "C_t": 0.5308768037231872,
+    "s_stab": 0.8556531069789521,
+    "s_dep": 0.3805074056311873,
+    "s_cos": 0.90427698691686,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_49_turn_4": {
+    "C_t": 0.5533360867695942,
+    "s_stab": 0.9743903498325855,
+    "s_dep": 0.4529506255224447,
+    "s_cos": 0.8453149398167928,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_50_turn_0": {
+    "C_t": 0.19148775882419558,
+    "s_stab": 0.9118464705914076,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_50_turn_2": {
+    "C_t": 0.5786919910595888,
+    "s_stab": 0.7820950932358772,
+    "s_dep": 0.8494398667720148,
+    "s_cos": 0.7868988315264384,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_50_turn_3": {
+    "C_t": 0.5112012110542783,
+    "s_stab": 0.8523335341576895,
+    "s_dep": 0.4255641749733285,
+    "s_cos": 0.8094756404558817,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_51_turn_0": {
+    "C_t": 0.18293722878239999,
+    "s_stab": 0.8711296608685715,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_51_turn_3": {
+    "C_t": 0.4788108871441469,
+    "s_stab": 0.7325627661150929,
+    "s_dep": 0.34518846075540305,
+    "s_cos": 0.8416104316711426,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_52_turn_2": {
+    "C_t": 0.49031560649425,
+    "s_stab": 0.9056004114318558,
+    "s_dep": 0.2608974089923363,
+    "s_cos": 0.8178368806838989,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_52_turn_3": {
+    "C_t": 0.49137748470250886,
+    "s_stab": 0.9474324545602489,
+    "s_dep": 0.24183716714992856,
+    "s_cos": 0.8054362138112386,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_53_turn_3": {
+    "C_t": 0.5002538232031113,
+    "s_stab": 0.9150484287214815,
+    "s_dep": 0.28513135441400356,
+    "s_cos": 0.8273868958155314,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_56_turn_0": {
+    "C_t": 0.2059333249737574,
+    "s_stab": 0.9806348808274162,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_56_turn_2": {
+    "C_t": 0.4921185088035561,
+    "s_stab": 0.8830813561756311,
+    "s_dep": 0.3169713762792942,
+    "s_cos": 0.8003581166267395,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_56_turn_3": {
+    "C_t": 0.46045985082193247,
+    "s_stab": 0.8847516867438547,
+    "s_dep": 0.1687832798405721,
+    "s_cos": 0.7973916927973429,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_57_turn_1": {
+    "C_t": 0.45657369436196665,
+    "s_stab": 0.9049299138903442,
+    "s_dep": 0.15492252448818764,
+    "s_cos": 0.7800156076749166,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_57_turn_2": {
+    "C_t": 0.5737966153360212,
+    "s_stab": 0.7087452564329524,
+    "s_dep": 0.8083863433683551,
+    "s_cos": 0.8506632645924886,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_57_turn_3": {
+    "C_t": 0.48646452146806013,
+    "s_stab": 0.8638844392051133,
+    "s_dep": 0.35061686593403163,
+    "s_cos": 0.7713974912961324,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_57_turn_4": {
+    "C_t": 0.5001545338365934,
+    "s_stab": 0.9206657839695498,
+    "s_dep": 0.31194133873436475,
+    "s_cos": 0.8043567935625712,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_58_turn_0": {
+    "C_t": 0.19660577415230238,
+    "s_stab": 0.9362179721538209,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_58_turn_1": {
+    "C_t": 0.5317955521249695,
+    "s_stab": 0.8592013379942229,
+    "s_dep": 0.528022247974667,
+    "s_cos": 0.8015953302383423,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_58_turn_2": {
+    "C_t": 0.5337870538245908,
+    "s_stab": 0.9087792040325094,
+    "s_dep": 0.47449942132486506,
+    "s_cos": 0.8109951416651408,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_58_turn_3": {
+    "C_t": 0.5238007580521695,
+    "s_stab": 0.9513303012113032,
+    "s_dep": 0.4060424876053834,
+    "s_cos": 0.7958415746688843,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_59_turn_0": {
+    "C_t": 0.2077513644913178,
+    "s_stab": 0.9892922118634183,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_59_turn_3": {
+    "C_t": 0.5749520258756122,
+    "s_stab": 0.7961084861617885,
+    "s_dep": 0.6933159717722099,
+    "s_cos": 0.8739096323649088,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_59_turn_4": {
+    "C_t": 0.532339910682406,
+    "s_stab": 0.8882773173537695,
+    "s_dep": 0.41040825801209024,
+    "s_cos": 0.8653864661852518,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_60_turn_1": {
+    "C_t": 0.5147704494457219,
+    "s_stab": 0.925415856202432,
+    "s_dep": 0.3318474297886799,
+    "s_cos": 0.8358171979586283,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_61_turn_1": {
+    "C_t": 0.5506267860104368,
+    "s_stab": 0.8933526737383494,
+    "s_dep": 0.4468494830446173,
+    "s_cos": 0.8972811102867126,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_61_turn_2": {
+    "C_t": 0.5436889970162604,
+    "s_stab": 0.8883716133775634,
+    "s_dep": 0.41378867800046804,
+    "s_cos": 0.900784452756246,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_61_turn_3": {
+    "C_t": 0.6470263868444,
+    "s_stab": 0.8625603195684257,
+    "s_dep": 0.9406904331156382,
+    "s_cos": 0.8944790959358215,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_61_turn_4": {
+    "C_t": 0.524064338478643,
+    "s_stab": 0.870942881806047,
+    "s_dep": 0.4126420093977949,
+    "s_cos": 0.848371704419454,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_62_turn_3": {
+    "C_t": 0.5579612853566791,
+    "s_stab": 0.984768069544452,
+    "s_dep": 0.44885573370402265,
+    "s_cos": 0.8563342889149984,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_63_turn_2": {
+    "C_t": 0.566586316748216,
+    "s_stab": 0.9197859656954612,
+    "s_dep": 0.6110743330996825,
+    "s_cos": 0.8170188466707865,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_65_turn_1": {
+    "C_t": 0.5194636585216488,
+    "s_stab": 0.897840940228772,
+    "s_dep": 0.3709699459635332,
+    "s_cos": 0.8433779080708822,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_65_turn_2": {
+    "C_t": 0.5172120061864132,
+    "s_stab": 0.9189308190999563,
+    "s_dep": 0.34668898836557177,
+    "s_cos": 0.8381061553955078,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_65_turn_3": {
+    "C_t": 0.5250248122693701,
+    "s_stab": 0.9655334768972638,
+    "s_dep": 0.3380909148863464,
+    "s_cos": 0.83754563331604,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_66_turn_0": {
+    "C_t": 0.17589354635826884,
+    "s_stab": 0.8375883159917565,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_66_turn_3": {
+    "C_t": 0.47386917264363926,
+    "s_stab": 0.8731280175097679,
+    "s_dep": 0.32794884915773787,
+    "s_cos": 0.7388101021448771,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_68_turn_2": {
+    "C_t": 0.6311890446587864,
+    "s_stab": 0.7689512851902719,
+    "s_dep": 1.0,
+    "s_cos": 0.8656975825627645,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_68_turn_3": {
+    "C_t": 0.5783764212900648,
+    "s_stab": 0.9273974532549387,
+    "s_dep": 0.5365860737953111,
+    "s_cos": 0.9031329353650411,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_68_turn_4": {
+    "C_t": 0.5506141485496403,
+    "s_stab": 0.8489742913362761,
+    "s_dep": 0.5636702660697751,
+    "s_cos": 0.8465293049812317,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_69_turn_2": {
+    "C_t": 0.517465657367083,
+    "s_stab": 0.8641867504153602,
+    "s_dep": 0.4548882510712203,
+    "s_cos": 0.801533023516337,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_70_turn_0": {
+    "C_t": 0.2059333249737574,
+    "s_stab": 0.9806348808274162,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_70_turn_3": {
+    "C_t": 0.6171463430268352,
+    "s_stab": 0.7593859776347335,
+    "s_dep": 1.0,
+    "s_cos": 0.8255842924118042,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_73_turn_0": {
+    "C_t": 0.19518645283253305,
+    "s_stab": 0.9294592992025384,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_73_turn_2": {
+    "C_t": 0.5212663624254711,
+    "s_stab": 0.940505623837659,
+    "s_dep": 0.38534910788853693,
+    "s_cos": 0.8094562292098999,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_73_turn_3": {
+    "C_t": 0.5599299137196707,
+    "s_stab": 0.9670072707394064,
+    "s_dep": 0.5297476444458745,
+    "s_cos": 0.8187046051025391,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_73_turn_4": {
+    "C_t": 0.5822748882726618,
+    "s_stab": 0.8857116552407365,
+    "s_dep": 0.669162972669127,
+    "s_cos": 0.8525040547053019,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_74_turn_1": {
+    "C_t": 0.5935160031730491,
+    "s_stab": 0.868666013635226,
+    "s_dep": 0.7892949645693337,
+    "s_cos": 0.8178139925003052,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_74_turn_3": {
+    "C_t": 0.4953593416629815,
+    "s_stab": 0.9804142839882042,
+    "s_dep": 0.10882162144836861,
+    "s_cos": 0.8887326717376709,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_75_turn_0": {
+    "C_t": 0.19714993693328567,
+    "s_stab": 0.9388092234918366,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_78_turn_1": {
+    "C_t": 0.49134071089558606,
+    "s_stab": 0.9109157027795529,
+    "s_dep": 0.3003578925673979,
+    "s_cos": 0.7899108529090881,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_78_turn_2": {
+    "C_t": 0.49290902885957943,
+    "s_stab": 0.9230921996666749,
+    "s_dep": 0.16711769472008156,
+    "s_cos": 0.8798831701278687,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_78_turn_3": {
+    "C_t": 0.5839943232872039,
+    "s_stab": 0.830574491983283,
+    "s_dep": 0.7290835598490215,
+    "s_cos": 0.8548871080080668,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_80_turn_0": {
+    "C_t": 0.19486462983965236,
+    "s_stab": 0.9279268087602495,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_80_turn_1": {
+    "C_t": 0.5499671470057488,
+    "s_stab": 0.8497439110347778,
+    "s_dep": 0.5543855879406132,
+    "s_cos": 0.8503331740697225,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_80_turn_3": {
+    "C_t": 0.5306981946474068,
+    "s_stab": 0.9582165889665896,
+    "s_dep": 0.3152623738435603,
+    "s_cos": 0.877558708190918,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_80_turn_4": {
+    "C_t": 0.5597664265217737,
+    "s_stab": 0.8773211795248137,
+    "s_dep": 0.6168502830178354,
+    "s_cos": 0.819968064626058,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_81_turn_0": {
+    "C_t": 0.17977490289353115,
+    "s_stab": 0.8560709661596723,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_81_turn_2": {
+    "C_t": 0.5028679012607139,
+    "s_stab": 0.9365908110166681,
+    "s_dep": 0.2567202895904974,
+    "s_cos": 0.8409085671106974,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_82_turn_0": {
+    "C_t": 0.20064045198406422,
+    "s_stab": 0.9554307237336392,
+    "s_dep": 0.0,
+    "s_cos": 0.0,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  },
+  "conv_82_turn_3": {
+    "C_t": 0.4950590639299086,
+    "s_stab": 0.9414445493625667,
+    "s_dep": 0.20616944387055958,
+    "s_cos": 0.8468670845031738,
+    "s_abl": 0.0,
+    "num_probes": 6,
+    "paired_types": [
+      "control",
+      "counter_cue",
+      "recall"
+    ],
+    "cosine_weight": 0.3
+  }
+}

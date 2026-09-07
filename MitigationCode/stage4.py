@@ -9,14 +9,17 @@ from dataclasses import dataclass, field
 from collections import defaultdict
 from datetime import datetime
 import re
+from category_config import get_category, get_category_paths
 
 # Configuration paths
-MODEL_PATH = "MODEL HERE"  
-STAGE1_DIR = "PATH HERE"
-STAGE2_DIR = "PATH HERE"
-STAGE3_DIR = "PATH HERE"
-STAGE4_DIR = "PATH HERE"
-DATASET_PATH = "PATH HERE"
+MODEL_PATH = "mistralai/Mistral-7B-Instruct-v0.2"
+CATEGORY = get_category()
+CATEGORY_PATHS = get_category_paths(CATEGORY)
+STAGE1_DIR = str(CATEGORY_PATHS["stage1"])
+STAGE2_DIR = str(CATEGORY_PATHS["stage2"])
+STAGE3_DIR = str(CATEGORY_PATHS["stage3"])
+STAGE4_DIR = str(CATEGORY_PATHS["stage4"])
+DATASET_PATH = str(CATEGORY_PATHS["input_file"])
 
 os.makedirs(STAGE4_DIR, exist_ok=True)
 os.makedirs(os.path.join(STAGE4_DIR, "multiturn_outputs"), exist_ok=True)
@@ -79,7 +82,7 @@ class Stage1BiasLoader:
         self.bias_scores = self.load_stage1_scores()
     
     def load_stage1_scores(self) -> Dict[str, float]:
-        csv_file = os.path.join(self.stage1_dir, "stage1_detailed_results.csv")
+        csv_file = os.path.join(self.stage1_dir, "stage1_mistral_hf_detailed_results.csv")
         
         if not os.path.exists(csv_file):
             print(f"Warning: Stage-1 CSV not found at {csv_file}")
@@ -112,12 +115,8 @@ class Stage1BiasLoader:
         
         if item_id in self.bias_scores:
             return self.bias_scores[item_id]
-        
-        if turn_id is not None:
-            base_score = 0.3 + (turn_id * 0.1)
-            return min(base_score, 0.8)
-        
-        return 0.5
+
+        raise KeyError(f"Missing Stage-1 bias score for {item_id}, turn {turn_id}")
 
 class Stage3MemoryLoader:
     """Loads Stage-3 memory scores (C_t) from MCP JSON"""
@@ -157,22 +156,16 @@ class Stage3MemoryLoader:
     def get_memory_score(self, item_id: str, turn_id: int = None) -> float:
         if turn_id is not None:
             if turn_id == 0:
-                return 0.21
-            
+                return 0.0
+
             key = f"{item_id}_turn{turn_id}"
             if key in self.memory_scores:
                 return self.memory_scores[key]
         
         if item_id in self.memory_scores:
             return self.memory_scores[item_id]
-        
-        if turn_id is not None:
-            if turn_id == 0:
-                return 0.21
-            memory = 0.2 + (turn_id * 0.15)
-            return min(memory, 0.9)
-        
-        return 0.5
+
+        raise KeyError(f"Missing Stage-3 memory score for {item_id}, turn {turn_id}")
 
 class PipelineGatingPolicy:
     """Gating policy: θt = f(St, Ct)"""
@@ -568,7 +561,8 @@ class MultiTurnInferenceEngine:
     def save_results(self, conversations: List[Conversation], config: MaskConfig):
         json_data = {
             "metadata": {
-                "model": "MODEL",
+                "model": MODEL_PATH,
+                "category": CATEGORY,
                 "pipeline_version": "Stage-4 with a",
                 "total_conversations": len(conversations),
                 "total_turns": sum(len(c.turns) for c in conversations)
@@ -606,6 +600,13 @@ class Stage4PipelinePipeline:
         print("Stage-4 MAM Pipeline with a Model")
         
         try:
+            if not self.stage1_loader.bias_scores:
+                raise RuntimeError("Stage-1 bias scores are required before running Stage 4")
+            if not self.stage3_loader.memory_scores:
+                raise RuntimeError("Stage-3 MCP scores are required before running Stage 4")
+            if not (self.mask_builder.local_cbs or self.mask_builder.carry_cbs):
+                raise RuntimeError("Stage-2 CBS neuron lists are required before running Stage 4")
+
             with open(DATASET_PATH, 'r') as f:
                 dataset = json.load(f)
             
@@ -655,7 +656,10 @@ def main():
     )
     
     pipeline = Stage4PipelinePipeline(model, tokenizer, config)
-    success = pipeline.run_complete_pipeline(max_conversations=None)
+    max_conversations = int(os.getenv("MAX_CONVERSATIONS", "0"))
+    success = pipeline.run_complete_pipeline(
+        max_conversations=max_conversations if max_conversations > 0 else None
+    )
     
     if success:
         print("\n Stage-4 completed successfully with a")

@@ -1,0 +1,51 @@
+{
+    "processing_time": 11025.675209999084,
+    "total_files": 6,
+    "successful_files": 6,
+    "failed_files": 0,
+    "model_used": "gpt-4o-mini",
+    "results": [
+        {
+            "file_name": "prompt_age.json",
+            "file_path": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\data\\FairMT-bench\\FairMT_10K\\Stereotype\\Scattered_Questions\\prompt_age.json",
+            "result_path": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\results\\fairmt_generated_responses/prompt_age_gpt_4o_83samples_results.json",
+            "status": " prompt_age.json: 83/83 successful (100.0%)",
+            "processed": true
+        },
+        {
+            "file_name": "prompt_appearance.json",
+            "file_path": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\data\\FairMT-bench\\FairMT_10K\\Stereotype\\Scattered_Questions\\prompt_appearance.json",
+            "result_path": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\results\\fairmt_generated_responses/prompt_appearance_gpt_4o_76samples_results.json",
+            "status": " prompt_appearance.json: 76/76 successful (100.0%)",
+            "processed": true
+        },
+        {
+            "file_name": "prompt_disable.json",
+            "file_path": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\data\\FairMT-bench\\FairMT_10K\\Stereotype\\Scattered_Questions\\prompt_disable.json",
+            "result_path": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\results\\fairmt_generated_responses/prompt_disable_gpt_4o_151samples_results.json",
+            "status": " prompt_disable.json: 151/151 successful (100.0%)",
+            "processed": true
+        },
+        {
+            "file_name": "prompt_gender.json",
+            "file_path": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\data\\FairMT-bench\\FairMT_10K\\Stereotype\\Scattered_Questions\\prompt_gender.json",
+            "result_path": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\results\\fairmt_generated_responses/prompt_gender_gpt_4o_441samples_results.json",
+            "status": " prompt_gender.json: 441/441 successful (100.0%)",
+            "processed": true
+        },
+        {
+            "file_name": "prompt_race.json",
+            "file_path": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\data\\FairMT-bench\\FairMT_10K\\Stereotype\\Scattered_Questions\\prompt_race.json",
+            "result_path": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\results\\fairmt_generated_responses/prompt_race_gpt_4o_325samples_results.json",
+            "status": " prompt_race.json: 325/325 successful (100.0%)",
+            "processed": true
+        },
+        {
+            "file_name": "prompt_religion.json",
+            "file_path": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\data\\FairMT-bench\\FairMT_10K\\Stereotype\\Scattered_Questions\\prompt_religion.json",
+            "result_path": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\results\\fairmt_generated_responses/prompt_religion_gpt_4o_318samples_results.json",
+            "status": " prompt_religion.json: 318/318 successful (100.0%)",
+            "processed": true
+        }
+    ]
+}

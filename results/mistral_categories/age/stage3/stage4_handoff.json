@@ -1,0 +1,329 @@
+{
+  "stage3_summary": {
+    "version": "Stage-3 MCP v1.1 - Rule-based + Cosine Similarity",
+    "total_turns_processed": 415,
+    "carry_biased_turns": 104,
+    "tau_threshold": 0.4358056206249186,
+    "mcp_methodology": "JS divergence + cosine similarity blend",
+    "cosine_weight": 0.3,
+    "rule_based_features": [
+      "Stratified turn sampling by bias thresholds",
+      "Neutrality filters (banned words, sentiment, question types)",
+      "Percentile-based gating threshold",
+      "LLM escalation rules"
+    ]
+  },
+  "masking_policy": {
+    "tau": 0.4358056206249186,
+    "k_total": 48,
+    "alpha": 0.5,
+    "description": "Apply mask if G_t >= tau (rule-based gating)",
+    "methodology": "Rule-based + cosine similarity MCP scoring"
+  },
+  "target_neurons": [
+    {
+      "layer": 21,
+      "idx": 2172,
+      "score": -0.08347541165639119,
+      "neuron_key": "layer_21.neuron_2172"
+    },
+    {
+      "layer": 23,
+      "idx": 3389,
+      "score": -0.0836843467620482,
+      "neuron_key": "layer_23.neuron_3389"
+    },
+    {
+      "layer": 31,
+      "idx": 3244,
+      "score": -0.08375428670860198,
+      "neuron_key": "layer_31.neuron_3244"
+    },
+    {
+      "layer": 32,
+      "idx": 2232,
+      "score": -0.08382673292274935,
+      "neuron_key": "layer_32.neuron_2232"
+    },
+    {
+      "layer": 31,
+      "idx": 3921,
+      "score": -0.08433394834219692,
+      "neuron_key": "layer_31.neuron_3921"
+    },
+    {
+      "layer": 26,
+      "idx": 1661,
+      "score": -0.08494043924722326,
+      "neuron_key": "layer_26.neuron_1661"
+    },
+    {
+      "layer": 22,
+      "idx": 2172,
+      "score": -0.08503750720656061,
+      "neuron_key": "layer_22.neuron_2172"
+    },
+    {
+      "layer": 22,
+      "idx": 1935,
+      "score": -0.08528008518448796,
+      "neuron_key": "layer_22.neuron_1935"
+    },
+    {
+      "layer": 31,
+      "idx": 4091,
+      "score": -0.08534930125776544,
+      "neuron_key": "layer_31.neuron_4091"
+    },
+    {
+      "layer": 23,
+      "idx": 1935,
+      "score": -0.08652505529932229,
+      "neuron_key": "layer_23.neuron_1935"
+    },
+    {
+      "layer": 32,
+      "idx": 2682,
+      "score": -0.0868779377764966,
+      "neuron_key": "layer_32.neuron_2682"
+    },
+    {
+      "layer": 32,
+      "idx": 2524,
+      "score": -0.08701827727168439,
+      "neuron_key": "layer_32.neuron_2524"
+    },
+    {
+      "layer": 26,
+      "idx": 3307,
+      "score": -0.0876600885965738,
+      "neuron_key": "layer_26.neuron_3307"
+    },
+    {
+      "layer": 27,
+      "idx": 3307,
+      "score": -0.08984283079583961,
+      "neuron_key": "layer_27.neuron_3307"
+    },
+    {
+      "layer": 31,
+      "idx": 1030,
+      "score": -0.09034627891448607,
+      "neuron_key": "layer_31.neuron_1030"
+    },
+    {
+      "layer": 31,
+      "idx": 3855,
+      "score": -0.09076954945024238,
+      "neuron_key": "layer_31.neuron_3855"
+    },
+    {
+      "layer": 28,
+      "idx": 1428,
+      "score": -0.09144139577107258,
+      "neuron_key": "layer_28.neuron_1428"
+    },
+    {
+      "layer": 29,
+      "idx": 2078,
+      "score": -0.09334518248776355,
+      "neuron_key": "layer_29.neuron_2078"
+    },
+    {
+      "layer": 25,
+      "idx": 1661,
+      "score": -0.09438930649355233,
+      "neuron_key": "layer_25.neuron_1661"
+    },
+    {
+      "layer": 25,
+      "idx": 2172,
+      "score": -0.09484642672251506,
+      "neuron_key": "layer_25.neuron_2172"
+    },
+    {
+      "layer": 25,
+      "idx": 3389,
+      "score": -0.09718892660485692,
+      "neuron_key": "layer_25.neuron_3389"
+    },
+    {
+      "layer": 32,
+      "idx": 1641,
+      "score": -0.09720712684723268,
+      "neuron_key": "layer_32.neuron_1641"
+    },
+    {
+      "layer": 29,
+      "idx": 1125,
+      "score": -0.09959540309676204,
+      "neuron_key": "layer_29.neuron_1125"
+    },
+    {
+      "layer": 25,
+      "idx": 1428,
+      "score": -0.10043486629623964,
+      "neuron_key": "layer_25.neuron_1428"
+    },
+    {
+      "layer": 28,
+      "idx": 2172,
+      "score": -0.10135806899472892,
+      "neuron_key": "layer_28.neuron_2172"
+    },
+    {
+      "layer": 31,
+      "idx": 2682,
+      "score": -0.10199574390089655,
+      "neuron_key": "layer_31.neuron_2682"
+    },
+    {
+      "layer": 30,
+      "idx": 2070,
+      "score": -0.10227423978139119,
+      "neuron_key": "layer_30.neuron_2070"
+    },
+    {
+      "layer": 26,
+      "idx": 2172,
+      "score": -0.102879443800593,
+      "neuron_key": "layer_26.neuron_2172"
+    },
+    {
+      "layer": 26,
+      "idx": 1428,
+      "score": -0.10378950187958867,
+      "neuron_key": "layer_26.neuron_1428"
+    },
+    {
+      "layer": 32,
+      "idx": 3350,
+      "score": -0.10431877101760313,
+      "neuron_key": "layer_32.neuron_3350"
+    },
+    {
+      "layer": 32,
+      "idx": 3307,
+      "score": -0.10460302054163921,
+      "neuron_key": "layer_32.neuron_3307"
+    },
+    {
+      "layer": 27,
+      "idx": 1428,
+      "score": -0.10463130904967527,
+      "neuron_key": "layer_27.neuron_1428"
+    },
+    {
+      "layer": 27,
+      "idx": 2172,
+      "score": -0.10482935158603163,
+      "neuron_key": "layer_27.neuron_2172"
+    },
+    {
+      "layer": 32,
+      "idx": 1434,
+      "score": -0.10566812538238893,
+      "neuron_key": "layer_32.neuron_1434"
+    },
+    {
+      "layer": 32,
+      "idx": 3244,
+      "score": -0.10586069865399096,
+      "neuron_key": "layer_32.neuron_3244"
+    },
+    {
+      "layer": 24,
+      "idx": 3389,
+      "score": -0.10669280822018543,
+      "neuron_key": "layer_24.neuron_3389"
+    },
+    {
+      "layer": 28,
+      "idx": 3307,
+      "score": -0.11014032938394201,
+      "neuron_key": "layer_28.neuron_3307"
+    },
+    {
+      "layer": 29,
+      "idx": 2070,
+      "score": -0.1114039593432323,
+      "neuron_key": "layer_29.neuron_2070"
+    },
+    {
+      "layer": 29,
+      "idx": 3307,
+      "score": -0.11683172202972045,
+      "neuron_key": "layer_29.neuron_3307"
+    },
+    {
+      "layer": 30,
+      "idx": 2078,
+      "score": -0.11700163691876883,
+      "neuron_key": "layer_30.neuron_2078"
+    },
+    {
+      "layer": 32,
+      "idx": 2236,
+      "score": -0.11801811298692083,
+      "neuron_key": "layer_32.neuron_2236"
+    },
+    {
+      "layer": 30,
+      "idx": 2960,
+      "score": -0.12063681361186936,
+      "neuron_key": "layer_30.neuron_2960"
+    },
+    {
+      "layer": 30,
+      "idx": 3307,
+      "score": -0.12212197177381401,
+      "neuron_key": "layer_30.neuron_3307"
+    },
+    {
+      "layer": 28,
+      "idx": 2070,
+      "score": -0.12255473309252636,
+      "neuron_key": "layer_28.neuron_2070"
+    },
+    {
+      "layer": 26,
+      "idx": 3389,
+      "score": -0.12520663709525603,
+      "neuron_key": "layer_26.neuron_3389"
+    },
+    {
+      "layer": 32,
+      "idx": 3855,
+      "score": -0.13222273861069278,
+      "neuron_key": "layer_32.neuron_3855"
+    },
+    {
+      "layer": 32,
+      "idx": 53,
+      "score": -0.14076416750988327,
+      "neuron_key": "layer_32.neuron_53"
+    },
+    {
+      "layer": 23,
+      "idx": 2070,
+      "score": -0.14098348962255272,
+      "neuron_key": "layer_23.neuron_2070"
+    }
+  ],
+  "stage2_inputs": {
+    "local_cbs": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\results\\mistral_categories\\age\\stage2\\cbs_local.json",
+    "carry_cbs": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\results\\mistral_categories\\age\\stage2\\cbs_carry.json",
+    "layer_maps": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\results\\mistral_categories\\age\\stage2\\layer_maps.json"
+  },
+  "stage3_outputs": {
+    "priority_turns": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\results\\mistral_categories\\age\\stage3\\priority_turns.json",
+    "mcp_scores": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\results\\mistral_categories\\age\\stage3\\mcp_scores.json",
+    "probe_scores": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\results\\mistral_categories\\age\\stage3\\probe_scores.jsonl"
+  },
+  "usage_instructions": {
+    "gating_rule": "Apply neuron masking when G_t >= tau (rule-based threshold)",
+    "neuron_targeting": "Use top-k carry-CBS neurons for memory-dependent bias",
+    "validation": "Monitor bias reduction after masking intervention",
+    "methodology": "Hybrid rule-based + cosine similarity approach"
+  }
+}

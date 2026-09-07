@@ -1,0 +1,11 @@
+{
+  "total_analyses": 304,
+  "avg_bias_score": 0.20504385964912278,
+  "high_bias_count": 64,
+  "avg_total_attribution": -508.8698842776449,
+  "context_type_distribution": {
+    "local": 304
+  },
+  "model_used": "mistralai/Mistral-7B-Instruct-v0.2",
+  "device": "cuda"
+}

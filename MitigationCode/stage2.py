@@ -1,4 +1,4 @@
-!pip install transformers accelerate
+# Install dependencies into the active environment before running this script.
 import os
 import sys
 import json
@@ -11,9 +11,12 @@ from datetime import datetime
 from typing import Dict, List, Any, Tuple, Optional
 from collections import defaultdict
 from dataclasses import dataclass
+from category_config import CATEGORY_VOCABULARY, GOLDEN_LABELS, get_category, get_category_paths
 
 # Environment setup
-os.environ.setdefault("HF_TOKEN", "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")
+MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.2"
+CATEGORY = get_category()
+CATEGORY_PATHS = get_category_paths(CATEGORY)
 
 try:
     from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -39,6 +42,7 @@ class DialogueTurn:
     timestamp: int = 0
 
 class DataFormatHandler:
+    @staticmethod
     def parse_conversation_data(dialogue_data: Dict[str, Any]) -> List[DialogueTurn]:
         """
         Parse your specific data format into normalized turns
@@ -57,12 +61,10 @@ class DataFormatHandler:
         for i, turn_key in enumerate(turn_keys):
             content = dialogue_data[turn_key]
             
-            # Alternate between user and assistant
-            role = 'user' if i % 2 == 0 else 'assistant'
+            role = 'user'
             
             if isinstance(content, dict):
-                # If content is a dict, try to extract text
-                text = content.get('content', content.get('text', str(content)))
+                text = content.get('prompt', content.get('content', content.get('text', str(content))))
             else:
                 text = str(content)
             
@@ -169,7 +171,7 @@ class MistralHFModelTracer:
             raise ImportError("transformers required for MistralHFModelTracer")
         
         self.hf_token = hf_token or os.getenv("HF_TOKEN")
-        self.model_name = "mistralai/MODEL HERE"
+        self.model_name = MODEL_NAME
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.max_length = max_length
         
@@ -190,13 +192,20 @@ class MistralHFModelTracer:
         if self.tokenizer.pad_token is None:
             self.tokenizer.pad_token = self.tokenizer.eos_token
         
-        # Load model with GPU acceleration
+        # Load 4-bit weights so the activation probe fits within the local GPU memory.
         if self.device.type == "cuda":
+            from transformers import BitsAndBytesConfig
+            bnb_config = BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_quant_type="nf4",
+                bnb_4bit_compute_dtype=torch.float16,
+                bnb_4bit_use_double_quant=True,
+            )
             self.model = AutoModelForCausalLM.from_pretrained(
                 self.model_name,
                 token=self.hf_token,
-                torch_dtype=torch.float16,  # Use FP16 for faster inference
-                device_map="auto",  # Automatically distribute across GPUs
+                quantization_config=bnb_config,
+                device_map="auto",
                 output_hidden_states=True,
                 trust_remote_code=True
             )
@@ -209,10 +218,8 @@ class MistralHFModelTracer:
             )
             self.model.to(self.device)
         
-        # Enable gradient computation
-        self.model.train()
-        for param in self.model.parameters():
-            param.requires_grad = True
+        self.model.eval()
+        self.model.enable_input_require_grads()
         
         print(f"Mistral model loaded successfully on {self.device}")
         self.current_context = ""
@@ -394,20 +401,15 @@ class AttributionAnalyzer:
                 self.tracer = MistralHFModelTracer(self.hf_token)
                 self.model_name = self.tracer.model_name
             else:
-                print("Transformers not available, using mock tracer...")
-                self.tracer = MockModelTracer("mistral-mock")
-                self.model_name = "mistral-mock"
+                raise ImportError("transformers is required for real Stage-2 attribution")
         except Exception as e:
-            print(f"Warning: Failed to load Mistral model, using mock tracer: {e}")
-            self.tracer = MockModelTracer("mistral-mock")
-            self.model_name = "mistral-mock"
+            raise RuntimeError(f"Failed to load the local Mistral model: {e}") from e
         
         # Initialize  attribution
         self._attribution = Attribution(self.tracer)
         
-        # Bias and golden labels for age bias
-        self.bias_labels = ["old", "elderly", "senior", "aged"]
-        self.golden_labels = ["person", "individual", "human", "adult"]
+        self.bias_labels = list(CATEGORY_VOCABULARY[CATEGORY])
+        self.golden_labels = list(GOLDEN_LABELS)
     
     def load_stage1_scores(self) -> Dict[str, float]:
         """Generate Stage-1 bias scores from context analysis"""
@@ -512,7 +514,7 @@ class AttributionAnalyzer:
             print(f"Error computing attribution for conv_{conv_id}_turn_{turn_id}: {e}")
             return {"error": str(e)}
     
-    def analyze_all_attributions(self, max_contexts: int = 20) -> pd.DataFrame:
+    def analyze_all_attributions(self, max_contexts: Optional[int] = None) -> pd.DataFrame:
         """Analyze attributions for available contexts"""
         results = []
         
@@ -524,7 +526,7 @@ class AttributionAnalyzer:
             
             with open(context_file, 'r') as f:
                 for line_num, line in enumerate(f):
-                    if len(results) >= max_contexts:
+                    if max_contexts is not None and len(results) >= max_contexts:
                         break
                         
                     try:
@@ -546,7 +548,7 @@ class AttributionAnalyzer:
                     except Exception as e:
                         print(f"Error processing line {line_num}: {e}")
             
-            if len(results) >= max_contexts:
+            if max_contexts is not None and len(results) >= max_contexts:
                 break
         
         return pd.DataFrame(results)
@@ -837,30 +839,13 @@ class Stage2Pipeline:
             self.log_step("Attribution Analysis (Mistral HF)", "started")
             
             analyzer = AttributionAnalyzer(self.output_dir, self.hf_token)
-            results_df = analyzer.analyze_all_attributions(max_contexts=20)
+            max_contexts = int(os.getenv("MAX_ATTRIBUTION_CONTEXTS", "0"))
+            results_df = analyzer.analyze_all_attributions(
+                max_contexts=max_contexts if max_contexts > 0 else None
+            )
             
             if results_df.empty:
-                # Create minimal results for pipeline continuity
-                print("Warning: No attribution results generated, creating minimal data")
-                minimal_results = [
-                    {
-                        "conv_id": 0,
-                        "turn_id": 1,
-                        "context_type": "carry_over",
-                        "bias_score": 0.5,
-                        "bias_label": "elderly",
-                        "golden_label": "person",
-                        "total_attribution": 1.0,
-                        "attributions": [[random.uniform(0, 0.1) for _ in range(4096)] for _ in range(32)]
-                    }
-                ]
-                
-                results_file = os.path.join(self.output_dir, "_attribution_results.json")
-                with open(results_file, 'w') as f:
-                    json.dump(minimal_results, f, indent=2)
-                
-                self.log_step("Attribution Analysis (Mistral HF)", "completed", "Minimal results created")
-                return True
+                raise RuntimeError("No attribution results were generated from the local Mistral model")
             
             analyzer.save_attribution_results(results_df)
             
@@ -1156,8 +1141,8 @@ def main():
     print("="*80)
     
     # Configuration
-    INPUT_FILE = "PATH HERE"
-    OUTPUT_DIR = "PATH HERE"
+    INPUT_FILE = str(CATEGORY_PATHS["input_file"])
+    OUTPUT_DIR = str(CATEGORY_PATHS["stage2"])
     
     # Validate input
     if not os.path.exists(INPUT_FILE):
@@ -1176,6 +1161,7 @@ def main():
     
     # Show configuration
     print(f"\nConfiguration:")
+    print(f"  Category: {CATEGORY}")
     print(f"  Input file: {INPUT_FILE}")
     print(f"  Output directory: {OUTPUT_DIR}")
     print(f"  Model: MODEL HERE (SOURCE HERE)")

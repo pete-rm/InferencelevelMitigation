@@ -1,0 +1,137 @@
+{
+  "api_statistics": {
+    "mistral_calls": 380,
+    "gpt_calls": 380,
+    "errors": 0
+  },
+  "gpu_statistics": {
+    "total_inference_time": 3639.411378622055,
+    "avg_inference_time": 9.577398364794881
+  },
+  "bootstrap_samples": 1000,
+  "total_turns_evaluated": 380,
+  "bias_rate": 0.7973684210526316,
+  "toxicity_rate": 0.039473684210526314,
+  "knowledge_retention_rate": 0.9184210526315789,
+  "faithfulness_rate": 0.8710526315789474,
+  "answer_relevance_rate": 0.7736842105263158,
+  "avg_bias_score": 0.30105263157894735,
+  "bias_ci_lower": 0.2881513157894736,
+  "bias_ci_upper": 0.3139473684210526,
+  "avg_toxicity_score": 0.024736842105263158,
+  "toxicity_ci_lower": 0.01630921052631579,
+  "toxicity_ci_upper": 0.03342105263157895,
+  "avg_knowledge_score": 0.37473684210526315,
+  "knowledge_ci_lower": 0.3639473684210526,
+  "knowledge_ci_upper": 0.38552631578947366,
+  "avg_faithfulness_score": 0.3307894736842105,
+  "faithfulness_ci_lower": 0.3173684210526316,
+  "faithfulness_ci_upper": 0.3428947368421052,
+  "avg_relevance_score": 0.40052631578947373,
+  "relevance_ci_lower": 0.3847302631578947,
+  "relevance_ci_upper": 0.41710526315789476,
+  "avg_overall_score": 0.3153684210526316,
+  "overall_ci_lower": 0.30473552631578943,
+  "overall_ci_upper": 0.3260105263157895,
+  "biased_turns": 303,
+  "toxic_turns": 15,
+  "knowledge_issues": 349,
+  "faithfulness_issues": 331,
+  "relevance_issues": 294,
+  "turn_metrics": {
+    "turn_0": {
+      "count": 76,
+      "avg_bias_score": 0.31842105263157894,
+      "bias_ci_lower": 0.2868421052631579,
+      "bias_ci_upper": 0.34868421052631576,
+      "avg_toxicity_score": 0.02631578947368421,
+      "toxicity_ci_lower": 0.009210526315789473,
+      "toxicity_ci_upper": 0.046052631578947366,
+      "avg_overall_score": 0.34026315789473677,
+      "bias_rate": 0.881578947368421,
+      "toxicity_rate": 0.05263157894736842,
+      "max_bias_score": 0.7,
+      "min_bias_score": 0.0
+    },
+    "turn_1": {
+      "count": 76,
+      "avg_bias_score": 0.29736842105263156,
+      "bias_ci_lower": 0.275,
+      "bias_ci_upper": 0.3157894736842105,
+      "avg_toxicity_score": 0.019736842105263157,
+      "toxicity_ci_lower": 0.007894736842105265,
+      "toxicity_ci_upper": 0.034243421052631555,
+      "avg_overall_score": 0.3218421052631578,
+      "bias_rate": 0.868421052631579,
+      "toxicity_rate": 0.013157894736842105,
+      "max_bias_score": 0.5,
+      "min_bias_score": 0.0
+    },
+    "turn_2": {
+      "count": 76,
+      "avg_bias_score": 0.2539473684210526,
+      "bias_ci_lower": 0.22763157894736838,
+      "bias_ci_upper": 0.2802631578947368,
+      "avg_toxicity_score": 0.010526315789473684,
+      "toxicity_ci_lower": 0.0,
+      "toxicity_ci_upper": 0.022368421052631583,
+      "avg_overall_score": 0.26894736842105255,
+      "bias_rate": 0.6973684210526315,
+      "toxicity_rate": 0.02631578947368421,
+      "max_bias_score": 0.4,
+      "min_bias_score": 0.0
+    },
+    "turn_3": {
+      "count": 76,
+      "avg_bias_score": 0.2960526315789474,
+      "bias_ci_lower": 0.2618421052631579,
+      "bias_ci_upper": 0.3328947368421053,
+      "avg_toxicity_score": 0.035526315789473684,
+      "toxicity_ci_lower": 0.014473684210526317,
+      "toxicity_ci_upper": 0.05921052631578947,
+      "avg_overall_score": 0.30315789473684207,
+      "bias_rate": 0.6842105263157895,
+      "toxicity_rate": 0.05263157894736842,
+      "max_bias_score": 0.8,
+      "min_bias_score": 0.0
+    },
+    "turn_4": {
+      "count": 76,
+      "avg_bias_score": 0.33947368421052626,
+      "bias_ci_lower": 0.3144736842105263,
+      "bias_ci_upper": 0.36315789473684207,
+      "avg_toxicity_score": 0.03157894736842106,
+      "toxicity_ci_lower": 0.010493421052631608,
+      "toxicity_ci_upper": 0.05921052631578947,
+      "avg_overall_score": 0.34263157894736834,
+      "bias_rate": 0.8552631578947368,
+      "toxicity_rate": 0.05263157894736842,
+      "max_bias_score": 0.8,
+      "min_bias_score": 0.0
+    }
+  },
+  "file_metrics": {
+    "prompt_appearance.json": {
+      "count": 380,
+      "avg_bias_score": 0.30105263157894735,
+      "bias_ci_lower": 0.28789473684210526,
+      "bias_ci_upper": 0.31394736842105264,
+      "avg_toxicity_score": 0.024736842105263158,
+      "bias_rate": 0.7973684210526316
+    }
+  },
+  "unique_turns_evaluated": 5,
+  "files_processed": 1,
+  "bias_score_distribution": {
+    "min": 0.0,
+    "max": 0.8,
+    "std": 0.1256517634216469,
+    "median": 0.3
+  },
+  "toxicity_score_distribution": {
+    "min": 0.0,
+    "max": 0.7,
+    "std": 0.08564728287407554,
+    "median": 0.0
+  }
+}

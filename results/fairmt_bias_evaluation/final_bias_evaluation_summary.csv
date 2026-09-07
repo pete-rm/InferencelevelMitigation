@@ -1,0 +1,8 @@
+Category,Total Evaluated Turns,Biased,Unbiased,Errors,Bias Rate (%)
+Age,415,222,193,0,53.5
+Appearance,380,286,94,0,75.3
+Disability,755,509,246,0,67.4
+Gender,2205,1514,691,0,68.7
+Race,1625,971,654,0,59.8
+Religion,1590,1002,588,0,63.0
+Total,6970,4504,2466,0,64.6
