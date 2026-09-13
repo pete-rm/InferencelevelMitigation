@@ -1,0 +1,51 @@
+{
+  "stage2_outputs": {
+    "local_cbs": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\results\\mistral_categories\\religion\\stage2\\cbs_local.json",
+    "carry_cbs": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\results\\mistral_categories\\religion\\stage2\\cbs_carry.json",
+    "layer_maps": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\results\\mistral_categories\\religion\\stage2\\layer_maps.json",
+    "attribution_results": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\results\\mistral_categories\\religion\\stage2\\_attribution_results.json",
+    "cbs_analysis": "C:\\Users\\space\\Desktop\\UNI\\InferencelevelMitigation\\results\\mistral_categories\\religion\\stage2\\cbs_analysis.json"
+  },
+  "model_info": {
+    "model_name": "MODEL HERE",
+    "source": "SOURCE HERE",
+    "device": "GPU",
+    "attribution_method": " Grad\u00d7Activation with skill disentangling"
+  },
+  "data_format_info": {
+    "input_format": "Custom turn-based conversations",
+    "turn_structure": "0-turn Conv, 1-turn Conv, 2-turn Conv, etc.",
+    "context_windows": "Local (3 turns) and Carry-over (10 turns)",
+    "attribution_method": " Grad\u00d7Activation with skill disentangling"
+  },
+  "methodology_summary": {
+    "attribution_method": " Grad\u00d7Activation with skill disentangling",
+    "aggregation_strategy": "Token max \u2192 Instance weighted \u2192 Instruction mean",
+    "cbs_identification": "Layer-depth based neuron categorization",
+    "validation_approach": "Attribution ranking and context preference analysis"
+  },
+  "stage3_guidance": {
+    "primary_inputs": {
+      "local_cbs": "Use for immediate context bias detection in MCP",
+      "carry_cbs": "Use for memory-dependent bias detection in MCP",
+      "layer_maps": "Guide layer-specific memory consistency probes"
+    },
+    "usage_instructions": {
+      "neuron_targeting": "Focus on top-ranked neurons in CBS files for intervention",
+      "probe_generation": "Use attribution patterns to generate memory consistency tests",
+      "context_analysis": "Consider local vs carry-over context preferences for probing strategy"
+    },
+    "implementation_notes": {
+      "neuron_format": "layer_X.neuron_Y format for identification",
+      "attribution_scores": "Higher absolute values indicate stronger bias association",
+      "context_preference": "local/carry indicates which context type activates neuron most",
+      "layer_distribution": "Check layer_maps.json for layer-wise importance analysis"
+    }
+  },
+  "quality_assurance": {
+    "pipeline_status": "completed",
+    "data_coverage": "Processed dialogues from custom format successfully",
+    "validation_method": "Attribution-based neuron ranking with context categorization",
+    "readiness_for_stage3": true
+  }
+}

@@ -1,0 +1,1098 @@
+{
+  "local_cbs_summary": {
+    "total_neurons": 35,
+    "avg_bias_attribution": -0.17882171601987495,
+    "layer_distribution": {
+      "layer_2": 2,
+      "layer_8": 3,
+      "layer_7": 2,
+      "layer_3": 2,
+      "layer_9": 2,
+      "layer_12": 3,
+      "layer_4": 2,
+      "layer_5": 2,
+      "layer_11": 3,
+      "layer_6": 2,
+      "layer_15": 1,
+      "layer_10": 2,
+      "layer_14": 1,
+      "layer_18": 1,
+      "layer_13": 2,
+      "layer_19": 1,
+      "layer_16": 2,
+      "layer_17": 1,
+      "layer_1": 1
+    },
+    "top_5_neurons": [
+      {
+        "layer": 2,
+        "neuron": 2070,
+        "bias_attribution": -0.3303429811995551,
+        "neuron_key": "layer_2.neuron_2070",
+        "abs_attribution": 0.3303429811995551,
+        "context_preference": "local"
+      },
+      {
+        "layer": 8,
+        "neuron": 2070,
+        "bias_attribution": -0.3252761537665563,
+        "neuron_key": "layer_8.neuron_2070",
+        "abs_attribution": 0.3252761537665563,
+        "context_preference": "local"
+      },
+      {
+        "layer": 7,
+        "neuron": 2070,
+        "bias_attribution": -0.31455195344836506,
+        "neuron_key": "layer_7.neuron_2070",
+        "abs_attribution": 0.31455195344836506,
+        "context_preference": "local"
+      },
+      {
+        "layer": 3,
+        "neuron": 2070,
+        "bias_attribution": -0.2996259272493274,
+        "neuron_key": "layer_3.neuron_2070",
+        "abs_attribution": 0.2996259272493274,
+        "context_preference": "local"
+      },
+      {
+        "layer": 9,
+        "neuron": 2070,
+        "bias_attribution": -0.291394770540149,
+        "neuron_key": "layer_9.neuron_2070",
+        "abs_attribution": 0.291394770540149,
+        "context_preference": "local"
+      }
+    ]
+  },
+  "carry_cbs_summary": {
+    "total_neurons": 65,
+    "avg_bias_attribution": -0.15243311222268802,
+    "layer_distribution": {
+      "layer_31": 7,
+      "layer_30": 7,
+      "layer_32": 11,
+      "layer_29": 6,
+      "layer_28": 4,
+      "layer_27": 5,
+      "layer_25": 5,
+      "layer_24": 3,
+      "layer_20": 1,
+      "layer_26": 6,
+      "layer_23": 4,
+      "layer_21": 3,
+      "layer_22": 3
+    },
+    "top_5_neurons": [
+      {
+        "layer": 31,
+        "neuron": 3389,
+        "bias_attribution": -0.5163793753314492,
+        "neuron_key": "layer_31.neuron_3389",
+        "abs_attribution": 0.5163793753314492,
+        "context_preference": "carry"
+      },
+      {
+        "layer": 30,
+        "neuron": 3389,
+        "bias_attribution": -0.51197696205796,
+        "neuron_key": "layer_30.neuron_3389",
+        "abs_attribution": 0.51197696205796,
+        "context_preference": "carry"
+      },
+      {
+        "layer": 32,
+        "neuron": 3389,
+        "bias_attribution": -0.40532527696217924,
+        "neuron_key": "layer_32.neuron_3389",
+        "abs_attribution": 0.40532527696217924,
+        "context_preference": "carry"
+      },
+      {
+        "layer": 29,
+        "neuron": 3389,
+        "bias_attribution": -0.35337089386996845,
+        "neuron_key": "layer_29.neuron_3389",
+        "abs_attribution": 0.35337089386996845,
+        "context_preference": "carry"
+      },
+      {
+        "layer": 32,
+        "neuron": 1125,
+        "bias_attribution": -0.32302714973096025,
+        "neuron_key": "layer_32.neuron_1125",
+        "abs_attribution": 0.32302714973096025,
+        "context_preference": "carry"
+      }
+    ]
+  },
+  "validation_results": {
+    "method": "Attribution-based ranking with layer-depth splitting (Mistral HF)",
+    "effectiveness": "CBS neurons ready for Stage-3 MCP probing",
+    "local_layers": "Early layers (0-60% depth)",
+    "carry_layers": "Late layers (60-100% depth)"
+  },
+  "layer_importance": {
+    "layer_2": {
+      "layer_num": 2,
+      "neuron_count": 2,
+      "total_attribution": 0.4159488299035079,
+      "avg_attribution": 0.20797441495175395,
+      "top_neurons": [
+        {
+          "layer": 2,
+          "neuron": 2070,
+          "bias_attribution": -0.3303429811995551,
+          "neuron_key": "layer_2.neuron_2070",
+          "abs_attribution": 0.3303429811995551,
+          "context_preference": "local"
+        },
+        {
+          "layer": 2,
+          "neuron": 1935,
+          "bias_attribution": -0.08560584870395281,
+          "neuron_key": "layer_2.neuron_1935",
+          "abs_attribution": 0.08560584870395281,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_8": {
+      "layer_num": 8,
+      "neuron_count": 3,
+      "total_attribution": 0.5132185575977856,
+      "avg_attribution": 0.1710728525325952,
+      "top_neurons": [
+        {
+          "layer": 8,
+          "neuron": 2070,
+          "bias_attribution": -0.3252761537665563,
+          "neuron_key": "layer_8.neuron_2070",
+          "abs_attribution": 0.3252761537665563,
+          "context_preference": "local"
+        },
+        {
+          "layer": 8,
+          "neuron": 1935,
+          "bias_attribution": -0.10461021574917219,
+          "neuron_key": "layer_8.neuron_1935",
+          "abs_attribution": 0.10461021574917219,
+          "context_preference": "local"
+        },
+        {
+          "layer": 8,
+          "neuron": 3701,
+          "bias_attribution": -0.08333218808205711,
+          "neuron_key": "layer_8.neuron_3701",
+          "abs_attribution": 0.08333218808205711,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_7": {
+      "layer_num": 7,
+      "neuron_count": 2,
+      "total_attribution": 0.41282542651852233,
+      "avg_attribution": 0.20641271325926117,
+      "top_neurons": [
+        {
+          "layer": 7,
+          "neuron": 2070,
+          "bias_attribution": -0.31455195344836506,
+          "neuron_key": "layer_7.neuron_2070",
+          "abs_attribution": 0.31455195344836506,
+          "context_preference": "local"
+        },
+        {
+          "layer": 7,
+          "neuron": 1935,
+          "bias_attribution": -0.09827347307015728,
+          "neuron_key": "layer_7.neuron_1935",
+          "abs_attribution": 0.09827347307015728,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_3": {
+      "layer_num": 3,
+      "neuron_count": 2,
+      "total_attribution": 0.3970271230533423,
+      "avg_attribution": 0.19851356152667116,
+      "top_neurons": [
+        {
+          "layer": 3,
+          "neuron": 2070,
+          "bias_attribution": -0.2996259272493274,
+          "neuron_key": "layer_3.neuron_2070",
+          "abs_attribution": 0.2996259272493274,
+          "context_preference": "local"
+        },
+        {
+          "layer": 3,
+          "neuron": 1935,
+          "bias_attribution": -0.0974011958040149,
+          "neuron_key": "layer_3.neuron_1935",
+          "abs_attribution": 0.0974011958040149,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_9": {
+      "layer_num": 9,
+      "neuron_count": 2,
+      "total_attribution": 0.3985203622982202,
+      "avg_attribution": 0.1992601811491101,
+      "top_neurons": [
+        {
+          "layer": 9,
+          "neuron": 2070,
+          "bias_attribution": -0.291394770540149,
+          "neuron_key": "layer_9.neuron_2070",
+          "abs_attribution": 0.291394770540149,
+          "context_preference": "local"
+        },
+        {
+          "layer": 9,
+          "neuron": 1935,
+          "bias_attribution": -0.1071255917580712,
+          "neuron_key": "layer_9.neuron_1935",
+          "abs_attribution": 0.1071255917580712,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_12": {
+      "layer_num": 12,
+      "neuron_count": 3,
+      "total_attribution": 0.4730775340503415,
+      "avg_attribution": 0.15769251135011383,
+      "top_neurons": [
+        {
+          "layer": 12,
+          "neuron": 2070,
+          "bias_attribution": -0.2900092522829574,
+          "neuron_key": "layer_12.neuron_2070",
+          "abs_attribution": 0.2900092522829574,
+          "context_preference": "local"
+        },
+        {
+          "layer": 12,
+          "neuron": 1935,
+          "bias_attribution": -0.1007169003518212,
+          "neuron_key": "layer_12.neuron_1935",
+          "abs_attribution": 0.1007169003518212,
+          "context_preference": "local"
+        },
+        {
+          "layer": 12,
+          "neuron": 3701,
+          "bias_attribution": -0.08235138141556292,
+          "neuron_key": "layer_12.neuron_3701",
+          "abs_attribution": 0.08235138141556292,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_4": {
+      "layer_num": 4,
+      "neuron_count": 2,
+      "total_attribution": 0.38112999113979723,
+      "avg_attribution": 0.19056499556989862,
+      "top_neurons": [
+        {
+          "layer": 4,
+          "neuron": 2070,
+          "bias_attribution": -0.28883311290614655,
+          "neuron_key": "layer_4.neuron_2070",
+          "abs_attribution": 0.28883311290614655,
+          "context_preference": "local"
+        },
+        {
+          "layer": 4,
+          "neuron": 1935,
+          "bias_attribution": -0.09229687823365067,
+          "neuron_key": "layer_4.neuron_1935",
+          "abs_attribution": 0.09229687823365067,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_5": {
+      "layer_num": 5,
+      "neuron_count": 2,
+      "total_attribution": 0.38314516181187913,
+      "avg_attribution": 0.19157258090593957,
+      "top_neurons": [
+        {
+          "layer": 5,
+          "neuron": 2070,
+          "bias_attribution": -0.2854719351459023,
+          "neuron_key": "layer_5.neuron_2070",
+          "abs_attribution": 0.2854719351459023,
+          "context_preference": "local"
+        },
+        {
+          "layer": 5,
+          "neuron": 1935,
+          "bias_attribution": -0.09767322666597682,
+          "neuron_key": "layer_5.neuron_1935",
+          "abs_attribution": 0.09767322666597682,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_11": {
+      "layer_num": 11,
+      "neuron_count": 3,
+      "total_attribution": 0.4654276260477028,
+      "avg_attribution": 0.15514254201590094,
+      "top_neurons": [
+        {
+          "layer": 11,
+          "neuron": 2070,
+          "bias_attribution": -0.2818645957289942,
+          "neuron_key": "layer_11.neuron_2070",
+          "abs_attribution": 0.2818645957289942,
+          "context_preference": "local"
+        },
+        {
+          "layer": 11,
+          "neuron": 1935,
+          "bias_attribution": -0.09944991560171772,
+          "neuron_key": "layer_11.neuron_1935",
+          "abs_attribution": 0.09944991560171772,
+          "context_preference": "local"
+        },
+        {
+          "layer": 11,
+          "neuron": 3701,
+          "bias_attribution": -0.0841131147169909,
+          "neuron_key": "layer_11.neuron_3701",
+          "abs_attribution": 0.0841131147169909,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_6": {
+      "layer_num": 6,
+      "neuron_count": 2,
+      "total_attribution": 0.3730014017875621,
+      "avg_attribution": 0.18650070089378104,
+      "top_neurons": [
+        {
+          "layer": 6,
+          "neuron": 2070,
+          "bias_attribution": -0.2701337195390108,
+          "neuron_key": "layer_6.neuron_2070",
+          "abs_attribution": 0.2701337195390108,
+          "context_preference": "local"
+        },
+        {
+          "layer": 6,
+          "neuron": 1935,
+          "bias_attribution": -0.10286768224855132,
+          "neuron_key": "layer_6.neuron_1935",
+          "abs_attribution": 0.10286768224855132,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_15": {
+      "layer_num": 15,
+      "neuron_count": 1,
+      "total_attribution": 0.2572147798853994,
+      "avg_attribution": 0.2572147798853994,
+      "top_neurons": [
+        {
+          "layer": 15,
+          "neuron": 2070,
+          "bias_attribution": -0.2572147798853994,
+          "neuron_key": "layer_15.neuron_2070",
+          "abs_attribution": 0.2572147798853994,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_10": {
+      "layer_num": 10,
+      "neuron_count": 2,
+      "total_attribution": 0.32962410023670324,
+      "avg_attribution": 0.16481205011835162,
+      "top_neurons": [
+        {
+          "layer": 10,
+          "neuron": 2070,
+          "bias_attribution": -0.23958390595897144,
+          "neuron_key": "layer_10.neuron_2070",
+          "abs_attribution": 0.23958390595897144,
+          "context_preference": "local"
+        },
+        {
+          "layer": 10,
+          "neuron": 1935,
+          "bias_attribution": -0.09004019427773179,
+          "neuron_key": "layer_10.neuron_1935",
+          "abs_attribution": 0.09004019427773179,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_14": {
+      "layer_num": 14,
+      "neuron_count": 1,
+      "total_attribution": 0.23589299688276077,
+      "avg_attribution": 0.23589299688276077,
+      "top_neurons": [
+        {
+          "layer": 14,
+          "neuron": 2070,
+          "bias_attribution": -0.23589299688276077,
+          "neuron_key": "layer_14.neuron_2070",
+          "abs_attribution": 0.23589299688276077,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_18": {
+      "layer_num": 18,
+      "neuron_count": 1,
+      "total_attribution": 0.2073577476653042,
+      "avg_attribution": 0.2073577476653042,
+      "top_neurons": [
+        {
+          "layer": 18,
+          "neuron": 2070,
+          "bias_attribution": -0.2073577476653042,
+          "neuron_key": "layer_18.neuron_2070",
+          "abs_attribution": 0.2073577476653042,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_13": {
+      "layer_num": 13,
+      "neuron_count": 2,
+      "total_attribution": 0.2918936622063845,
+      "avg_attribution": 0.14594683110319226,
+      "top_neurons": [
+        {
+          "layer": 13,
+          "neuron": 2070,
+          "bias_attribution": -0.2000232216538183,
+          "neuron_key": "layer_13.neuron_2070",
+          "abs_attribution": 0.2000232216538183,
+          "context_preference": "local"
+        },
+        {
+          "layer": 13,
+          "neuron": 1935,
+          "bias_attribution": -0.09187044055256623,
+          "neuron_key": "layer_13.neuron_1935",
+          "abs_attribution": 0.09187044055256623,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_19": {
+      "layer_num": 19,
+      "neuron_count": 1,
+      "total_attribution": 0.18108342657026077,
+      "avg_attribution": 0.18108342657026077,
+      "top_neurons": [
+        {
+          "layer": 19,
+          "neuron": 2070,
+          "bias_attribution": -0.18108342657026077,
+          "neuron_key": "layer_19.neuron_2070",
+          "abs_attribution": 0.18108342657026077,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_16": {
+      "layer_num": 16,
+      "neuron_count": 2,
+      "total_attribution": 0.2625847620679843,
+      "avg_attribution": 0.13129238103399216,
+      "top_neurons": [
+        {
+          "layer": 16,
+          "neuron": 2070,
+          "bias_attribution": -0.1781573769272558,
+          "neuron_key": "layer_16.neuron_2070",
+          "abs_attribution": 0.1781573769272558,
+          "context_preference": "local"
+        },
+        {
+          "layer": 16,
+          "neuron": 1935,
+          "bias_attribution": -0.08442738514072848,
+          "neuron_key": "layer_16.neuron_1935",
+          "abs_attribution": 0.08442738514072848,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_17": {
+      "layer_num": 17,
+      "neuron_count": 1,
+      "total_attribution": 0.17673234750103478,
+      "avg_attribution": 0.17673234750103478,
+      "top_neurons": [
+        {
+          "layer": 17,
+          "neuron": 2070,
+          "bias_attribution": -0.17673234750103478,
+          "neuron_key": "layer_17.neuron_2070",
+          "abs_attribution": 0.17673234750103478,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_1": {
+      "layer_num": 1,
+      "neuron_count": 1,
+      "total_attribution": 0.10305422347112997,
+      "avg_attribution": 0.10305422347112997,
+      "top_neurons": [
+        {
+          "layer": 1,
+          "neuron": 3878,
+          "bias_attribution": -0.10305422347112997,
+          "neuron_key": "layer_1.neuron_3878",
+          "abs_attribution": 0.10305422347112997,
+          "context_preference": "local"
+        }
+      ]
+    },
+    "layer_31": {
+      "layer_num": 31,
+      "neuron_count": 7,
+      "total_attribution": 1.460898569877574,
+      "avg_attribution": 0.20869979569679628,
+      "top_neurons": [
+        {
+          "layer": 31,
+          "neuron": 3389,
+          "bias_attribution": -0.5163793753314492,
+          "neuron_key": "layer_31.neuron_3389",
+          "abs_attribution": 0.5163793753314492,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 31,
+          "neuron": 1125,
+          "bias_attribution": -0.2839814748195623,
+          "neuron_key": "layer_31.neuron_1125",
+          "abs_attribution": 0.2839814748195623,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 31,
+          "neuron": 2960,
+          "bias_attribution": -0.18354880730837386,
+          "neuron_key": "layer_31.neuron_2960",
+          "abs_attribution": 0.18354880730837386,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 31,
+          "neuron": 2078,
+          "bias_attribution": -0.1662570372322537,
+          "neuron_key": "layer_31.neuron_2078",
+          "abs_attribution": 0.1662570372322537,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 31,
+          "neuron": 1641,
+          "bias_attribution": -0.12557831821062707,
+          "neuron_key": "layer_31.neuron_1641",
+          "abs_attribution": 0.12557831821062707,
+          "context_preference": "carry"
+        }
+      ]
+    },
+    "layer_30": {
+      "layer_num": 30,
+      "neuron_count": 7,
+      "total_attribution": 1.4217203279204715,
+      "avg_attribution": 0.20310290398863878,
+      "top_neurons": [
+        {
+          "layer": 30,
+          "neuron": 3389,
+          "bias_attribution": -0.51197696205796,
+          "neuron_key": "layer_30.neuron_3389",
+          "abs_attribution": 0.51197696205796,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 30,
+          "neuron": 1125,
+          "bias_attribution": -0.2032668764228063,
+          "neuron_key": "layer_30.neuron_1125",
+          "abs_attribution": 0.2032668764228063,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 30,
+          "neuron": 2078,
+          "bias_attribution": -0.1666482584365946,
+          "neuron_key": "layer_30.neuron_2078",
+          "abs_attribution": 0.1666482584365946,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 30,
+          "neuron": 2960,
+          "bias_attribution": -0.14735905224124327,
+          "neuron_key": "layer_30.neuron_2960",
+          "abs_attribution": 0.14735905224124327,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 30,
+          "neuron": 1641,
+          "bias_attribution": -0.1361716062027887,
+          "neuron_key": "layer_30.neuron_1641",
+          "abs_attribution": 0.1361716062027887,
+          "context_preference": "carry"
+        }
+      ]
+    },
+    "layer_32": {
+      "layer_num": 32,
+      "neuron_count": 11,
+      "total_attribution": 1.8343746725297134,
+      "avg_attribution": 0.1667613338663376,
+      "top_neurons": [
+        {
+          "layer": 32,
+          "neuron": 3389,
+          "bias_attribution": -0.40532527696217924,
+          "neuron_key": "layer_32.neuron_3389",
+          "abs_attribution": 0.40532527696217924,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 32,
+          "neuron": 1125,
+          "bias_attribution": -0.32302714973096025,
+          "neuron_key": "layer_32.neuron_1125",
+          "abs_attribution": 0.32302714973096025,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 32,
+          "neuron": 1375,
+          "bias_attribution": -0.19965448442673842,
+          "neuron_key": "layer_32.neuron_1375",
+          "abs_attribution": 0.19965448442673842,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 32,
+          "neuron": 1641,
+          "bias_attribution": -0.16211422547599338,
+          "neuron_key": "layer_32.neuron_1641",
+          "abs_attribution": 0.16211422547599338,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 32,
+          "neuron": 53,
+          "bias_attribution": -0.15158760310798292,
+          "neuron_key": "layer_32.neuron_53",
+          "abs_attribution": 0.15158760310798292,
+          "context_preference": "carry"
+        }
+      ]
+    },
+    "layer_29": {
+      "layer_num": 29,
+      "neuron_count": 6,
+      "total_attribution": 1.0069972410896755,
+      "avg_attribution": 0.1678328735149459,
+      "top_neurons": [
+        {
+          "layer": 29,
+          "neuron": 3389,
+          "bias_attribution": -0.35337089386996845,
+          "neuron_key": "layer_29.neuron_3389",
+          "abs_attribution": 0.35337089386996845,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 29,
+          "neuron": 2078,
+          "bias_attribution": -0.15021469419365688,
+          "neuron_key": "layer_29.neuron_2078",
+          "abs_attribution": 0.15021469419365688,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 29,
+          "neuron": 2070,
+          "bias_attribution": -0.1476851709631105,
+          "neuron_key": "layer_29.neuron_2070",
+          "abs_attribution": 0.1476851709631105,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 29,
+          "neuron": 3307,
+          "bias_attribution": -0.132254013162575,
+          "neuron_key": "layer_29.neuron_3307",
+          "abs_attribution": 0.132254013162575,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 29,
+          "neuron": 1125,
+          "bias_attribution": -0.12569596751636228,
+          "neuron_key": "layer_29.neuron_1125",
+          "abs_attribution": 0.12569596751636228,
+          "context_preference": "carry"
+        }
+      ]
+    },
+    "layer_28": {
+      "layer_num": 28,
+      "neuron_count": 4,
+      "total_attribution": 0.6778591989681421,
+      "avg_attribution": 0.16946479974203552,
+      "top_neurons": [
+        {
+          "layer": 28,
+          "neuron": 3389,
+          "bias_attribution": -0.2674956921710084,
+          "neuron_key": "layer_28.neuron_3389",
+          "abs_attribution": 0.2674956921710084,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 28,
+          "neuron": 2070,
+          "bias_attribution": -0.1807622846388659,
+          "neuron_key": "layer_28.neuron_2070",
+          "abs_attribution": 0.1807622846388659,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 28,
+          "neuron": 3307,
+          "bias_attribution": -0.13934568695674668,
+          "neuron_key": "layer_28.neuron_3307",
+          "abs_attribution": 0.13934568695674668,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 28,
+          "neuron": 2172,
+          "bias_attribution": -0.0902555352015211,
+          "neuron_key": "layer_28.neuron_2172",
+          "abs_attribution": 0.0902555352015211,
+          "context_preference": "carry"
+        }
+      ]
+    },
+    "layer_27": {
+      "layer_num": 27,
+      "neuron_count": 5,
+      "total_attribution": 0.6976713218436336,
+      "avg_attribution": 0.1395342643687267,
+      "top_neurons": [
+        {
+          "layer": 27,
+          "neuron": 3389,
+          "bias_attribution": -0.21178150808574348,
+          "neuron_key": "layer_27.neuron_3389",
+          "abs_attribution": 0.21178150808574348,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 27,
+          "neuron": 2070,
+          "bias_attribution": -0.1849795714119412,
+          "neuron_key": "layer_27.neuron_2070",
+          "abs_attribution": 0.1849795714119412,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 27,
+          "neuron": 3307,
+          "bias_attribution": -0.12284376131777731,
+          "neuron_key": "layer_27.neuron_3307",
+          "abs_attribution": 0.12284376131777731,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 27,
+          "neuron": 2172,
+          "bias_attribution": -0.09436732412174048,
+          "neuron_key": "layer_27.neuron_2172",
+          "abs_attribution": 0.09436732412174048,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 27,
+          "neuron": 1428,
+          "bias_attribution": -0.08369915690643108,
+          "neuron_key": "layer_27.neuron_1428",
+          "abs_attribution": 0.08369915690643108,
+          "context_preference": "carry"
+        }
+      ]
+    },
+    "layer_25": {
+      "layer_num": 25,
+      "neuron_count": 5,
+      "total_attribution": 0.559822486725864,
+      "avg_attribution": 0.1119644973451728,
+      "top_neurons": [
+        {
+          "layer": 25,
+          "neuron": 2070,
+          "bias_attribution": -0.172694831494464,
+          "neuron_key": "layer_25.neuron_2070",
+          "abs_attribution": 0.172694831494464,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 25,
+          "neuron": 2172,
+          "bias_attribution": -0.10218846403210369,
+          "neuron_key": "layer_25.neuron_2172",
+          "abs_attribution": 0.10218846403210369,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 25,
+          "neuron": 3389,
+          "bias_attribution": -0.10008214483197951,
+          "neuron_key": "layer_25.neuron_3389",
+          "abs_attribution": 0.10008214483197951,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 25,
+          "neuron": 1661,
+          "bias_attribution": -0.09297710696593026,
+          "neuron_key": "layer_25.neuron_1661",
+          "abs_attribution": 0.09297710696593026,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 25,
+          "neuron": 1935,
+          "bias_attribution": -0.09187993940138658,
+          "neuron_key": "layer_25.neuron_1935",
+          "abs_attribution": 0.09187993940138658,
+          "context_preference": "carry"
+        }
+      ]
+    },
+    "layer_24": {
+      "layer_num": 24,
+      "neuron_count": 3,
+      "total_attribution": 0.3628122190765987,
+      "avg_attribution": 0.12093740635886624,
+      "top_neurons": [
+        {
+          "layer": 24,
+          "neuron": 2070,
+          "bias_attribution": -0.16428632925677772,
+          "neuron_key": "layer_24.neuron_2070",
+          "abs_attribution": 0.16428632925677772,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 24,
+          "neuron": 3389,
+          "bias_attribution": -0.11381601497826986,
+          "neuron_key": "layer_24.neuron_3389",
+          "abs_attribution": 0.11381601497826986,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 24,
+          "neuron": 2172,
+          "bias_attribution": -0.08470987484155111,
+          "neuron_key": "layer_24.neuron_2172",
+          "abs_attribution": 0.08470987484155111,
+          "context_preference": "carry"
+        }
+      ]
+    },
+    "layer_20": {
+      "layer_num": 20,
+      "neuron_count": 1,
+      "total_attribution": 0.1636897207095923,
+      "avg_attribution": 0.1636897207095923,
+      "top_neurons": [
+        {
+          "layer": 20,
+          "neuron": 2070,
+          "bias_attribution": -0.1636897207095923,
+          "neuron_key": "layer_20.neuron_2070",
+          "abs_attribution": 0.1636897207095923,
+          "context_preference": "carry"
+        }
+      ]
+    },
+    "layer_26": {
+      "layer_num": 26,
+      "neuron_count": 6,
+      "total_attribution": 0.6946369322719953,
+      "avg_attribution": 0.11577282204533255,
+      "top_neurons": [
+        {
+          "layer": 26,
+          "neuron": 2070,
+          "bias_attribution": -0.16060390851355547,
+          "neuron_key": "layer_26.neuron_2070",
+          "abs_attribution": 0.16060390851355547,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 26,
+          "neuron": 3389,
+          "bias_attribution": -0.13219949583344112,
+          "neuron_key": "layer_26.neuron_3389",
+          "abs_attribution": 0.13219949583344112,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 26,
+          "neuron": 3307,
+          "bias_attribution": -0.1114501195238126,
+          "neuron_key": "layer_26.neuron_3307",
+          "abs_attribution": 0.1114501195238126,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 26,
+          "neuron": 2172,
+          "bias_attribution": -0.10292510481070209,
+          "neuron_key": "layer_26.neuron_2172",
+          "abs_attribution": 0.10292510481070209,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 26,
+          "neuron": 1935,
+          "bias_attribution": -0.10146811782129553,
+          "neuron_key": "layer_26.neuron_1935",
+          "abs_attribution": 0.10146811782129553,
+          "context_preference": "carry"
+        }
+      ]
+    },
+    "layer_23": {
+      "layer_num": 23,
+      "neuron_count": 4,
+      "total_attribution": 0.4087961714788778,
+      "avg_attribution": 0.10219904286971945,
+      "top_neurons": [
+        {
+          "layer": 23,
+          "neuron": 2070,
+          "bias_attribution": -0.14050282863591682,
+          "neuron_key": "layer_23.neuron_2070",
+          "abs_attribution": 0.14050282863591682,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 23,
+          "neuron": 1935,
+          "bias_attribution": -0.09748971699089404,
+          "neuron_key": "layer_23.neuron_1935",
+          "abs_attribution": 0.09748971699089404,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 23,
+          "neuron": 3389,
+          "bias_attribution": -0.08754065810449865,
+          "neuron_key": "layer_23.neuron_3389",
+          "abs_attribution": 0.08754065810449865,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 23,
+          "neuron": 2172,
+          "bias_attribution": -0.08326296774756829,
+          "neuron_key": "layer_23.neuron_2172",
+          "abs_attribution": 0.08326296774756829,
+          "context_preference": "carry"
+        }
+      ]
+    },
+    "layer_21": {
+      "layer_num": 21,
+      "neuron_count": 3,
+      "total_attribution": 0.3151242843526878,
+      "avg_attribution": 0.1050414281175626,
+      "top_neurons": [
+        {
+          "layer": 21,
+          "neuron": 2070,
+          "bias_attribution": -0.12521645249120447,
+          "neuron_key": "layer_21.neuron_2070",
+          "abs_attribution": 0.12521645249120447,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 21,
+          "neuron": 1935,
+          "bias_attribution": -0.09829914017228891,
+          "neuron_key": "layer_21.neuron_1935",
+          "abs_attribution": 0.09829914017228891,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 21,
+          "neuron": 2172,
+          "bias_attribution": -0.09160869168919443,
+          "neuron_key": "layer_21.neuron_2172",
+          "abs_attribution": 0.09160869168919443,
+          "context_preference": "carry"
+        }
+      ]
+    },
+    "layer_22": {
+      "layer_num": 22,
+      "neuron_count": 3,
+      "total_attribution": 0.30374914762989574,
+      "avg_attribution": 0.10124971587663191,
+      "top_neurons": [
+        {
+          "layer": 22,
+          "neuron": 2070,
+          "bias_attribution": -0.10967835685275248,
+          "neuron_key": "layer_22.neuron_2070",
+          "abs_attribution": 0.10967835685275248,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 22,
+          "neuron": 1935,
+          "bias_attribution": -0.10039323213084644,
+          "neuron_key": "layer_22.neuron_1935",
+          "abs_attribution": 0.10039323213084644,
+          "context_preference": "carry"
+        },
+        {
+          "layer": 22,
+          "neuron": 2172,
+          "bias_attribution": -0.09367755864629683,
+          "neuron_key": "layer_22.neuron_2172",
+          "abs_attribution": 0.09367755864629683,
+          "context_preference": "carry"
+        }
+      ]
+    }
+  }
+}
